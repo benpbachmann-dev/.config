@@ -4758,3 +4758,6 @@ expected <block end>, but found '<block mapping start>'
 2024-12-15 12:19:19 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
 2024-12-15 12:19:29 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3fad348b-ba7e-11ef-963f-a4b1c1adca22
 2024-12-15 12:20:59 INFO weather.py:156: Fetched new weather data at 2024-12-15 12:20:59.496646
+2024-12-15 12:30:59 INFO weather.py:156: Fetched new weather data at 2024-12-15 12:30:59.494380
+2024-12-15 12:40:59 INFO weather.py:156: Fetched new weather data at 2024-12-15 12:40:59.497133
+2024-12-15 12:50:59 INFO weather.py:156: Fetched new weather data at 2024-12-15 12:50:59.495025
