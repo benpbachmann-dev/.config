@@ -5008,3 +5008,15 @@ expected <block end>, but found '<scalar>'
 2024-12-21 15:41:07 DEBUG win32.py:58: Looking up time zone info from registry
 2024-12-21 15:41:07 INFO weather.py:158: Fetched new weather data at 2024-12-21 15:41:07.520534
 2024-12-21 15:41:07 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-12-21 15:41:08 INFO event_listener.py:52: Created named pipe yasb-499d63de-bfe4-11ef-ba53-a4b1c1adca22
+2024-12-21 15:41:08 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-499d63de-bfe4-11ef-ba53-a4b1c1adca22
+2024-12-21 15:41:08 INFO watcher.py:39: Created file watcher for path C:\Users\benpb\.config\yasb
+2024-12-21 15:41:08 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-12-21 15:41:08 DEBUG _windows.py:192: Thread started
+2024-12-21 15:41:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-499d63de-bfe4-11ef-ba53-a4b1c1adca22
+2024-12-21 15:41:11 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-12-21 15:41:11 INFO event_listener.py:93: Attempting to reconnect...
+2024-12-21 15:41:16 INFO event_listener.py:52: Created named pipe yasb-499d63de-bfe4-11ef-ba53-a4b1c1adca22
+2024-12-21 15:41:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-499d63de-bfe4-11ef-ba53-a4b1c1adca22
+2024-12-21 15:41:16 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-12-21 15:41:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-499d63de-bfe4-11ef-ba53-a4b1c1adca22
