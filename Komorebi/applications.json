@@ -2023,6 +2023,15 @@
       }
     ]
   },
+  "UniGetUI": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "UniGetUIw.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Wox": {
     "ignore": [
       {

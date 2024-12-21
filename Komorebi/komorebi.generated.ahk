@@ -556,6 +556,9 @@ RunWait('komorebic.exe float-rule class "android(splash)"', , "Hide")
 ; WingetUI
 ; If you have disabled minimize/close to tray for this application, you can delete/comment out the next line
 RunWait('komorebic.exe identify-tray-application exe "WingetUI.exe"', , "Hide")
+RunWait('komorebic.exe identify-tray-application exe "UniGetUI.exe"', , "Hide")
+RunWait('komorebic.exe identify-tray-application exe "unigetuiexe"', , "Hide")
+RunWait('komorebic.exe identify-tray-application exe "UniGetUiexe"', , "Hide")
 
 ; WingetUI
 ; If you have disabled minimize/close to tray for this application, you can delete/comment out the next line
