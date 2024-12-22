@@ -2,9 +2,9 @@ watch_stylesheet: true
 watch_config: true
 debug: false
 komorebi:
-  start_command:  "powershell komorebic start"
-  stop_command:   "powershell komorebic stop"
-  reload_command: "powershell komorebic stop & powershell komorebic start"
+  start_command:  "powershell komorebic start --ahk & powershell komorebic change-layout ultrawide-vertical-stack"
+  stop_command:   "powershell komorebic stop --ahk & powershell komorebic stop"
+  reload_command: "powershell komorebic stop --ahk & powershell komorebic stop & powershell komorebic start --ahk & powershell komorebic change-layout ultrawide-vertical-stack"
 bars:
   primary-bar:
     enabled: true

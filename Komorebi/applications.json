@@ -645,6 +645,15 @@
       }
     ]
   },
+  "Marvel Rivals": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "Marvel-Win64-Shipping.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Google Drive": {
     "ignore": [
       {
@@ -2027,7 +2036,7 @@
     "tray_and_multi_window": [
       {
         "kind": "Exe",
-        "id": "UniGetUIw.exe",
+        "id": "UniGetUI.exe",
         "matching_strategy": "Equals"
       }
     ]

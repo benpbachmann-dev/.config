@@ -520,6 +520,7 @@ RunWait('komorebic.exe identify-object-name-change-application exe "devenv.exe"'
 ; Visual Studio Code
 RunWait('komorebic.exe identify-border-overflow-application exe "Code.exe"', , "Hide")
 
+
 ; Visual Studio Code - Insiders
 RunWait('komorebic.exe identify-border-overflow-application exe "Code - Insiders.exe"', , "Hide")
 
