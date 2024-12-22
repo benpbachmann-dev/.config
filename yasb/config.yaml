@@ -188,6 +188,7 @@ widgets:
         - { icon: "\ue217",launch: "C:\\Users\\benpb\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Telegram Desktop\\Telegram.lnk" }
         - { icon: "\uf268",launch: "C:\\Program Files\\WindowsApps\\TheBrowserCompany.Arc_1.31.1.455_x64__ttt1ap7aakyb4\\arc.exe" }
         - { icon: "\uf269",launch: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" }
+        - { icon: "\udb83\udc37",launch: "C:\\Program Files\\Zen Browser\\zen.exe" }
 
   github:
     type: "yasb.github.GithubWidget"
