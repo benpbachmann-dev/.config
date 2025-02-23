@@ -248,15 +248,10 @@
 /* ICONS */
 .icon,
 .media-widget .btn,
-/* .power-menu-widget .label {
+.media-widget .btn {
 	font-family: "Segoe Fluent Icons";
-    color:#cacaca;
-	padding: 3px;
-    font-size: 12px;
-} */
-/* .media-widget .btn {
-	font-family: "Segoe Fluent Icons";
-} */
+    font-weight: 900;
+}
 .battery-widget .icon {
     font-size: 18px;
     margin-bottom: 1px;
@@ -354,25 +349,31 @@
 /* NEW MEDIA WIDGET */
 .media-widget {
     padding-right: 0;
+    /* font-family: 'JetBrainsMono NFP'; */
 }
 .media-widget .label {
+    /* font-family:'JetBrainsMono NFP'; */
 	color: #cacaca;
 	font-weight: bold;	
 }
 .media-widget .btn {
+    /* font-family: 'JetBrainsMono NFP'; */
 	padding: 0 5px;
 	margin: 4px 2px;
 }
 .media-widget .btn:hover {
-	color: #a89292;
+    /* font-family: 'JetBrainsMono NFP'; */
+	color: #805291;
 }
 .media-widget .btn.play {
+    /* font-family: 'JetBrainsMono NFP'; */
     border-radius: 12px;
 	font-size: 12px;
 }
 .media-widget .btn.disabled:hover,
 .media-widget .btn.disabled {
-	color: #cacaca;
+    /* font-family: 'JetBrainsMono NFP'; */
+    color: #cacaca;
 	font-size: 12px;
 	background-color: rgba(0, 0, 0, 0);
 }
