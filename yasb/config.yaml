@@ -24,14 +24,15 @@ bars:
     window_flags:
       always_on_top: false
       windows_app_bar: true
+      hide_on_fullscreen: true
     dimensions:
-      width: "60%"
-      height: 32
+      width: "98%"
+      height: 20
     padding:
-      top: 4
-      left: 6
+      top:    4
+      left:   0
       bottom: 0
-      right: 6
+      right:  0
     widgets:
       left: ["komorebi_workspaces","komorebi_active_layout","active_window","taskbar"]
       center: ["weather","clock"]
@@ -151,9 +152,9 @@ widgets:
       label: "<span>{icon}</span> {temp}/{feelslike}"
       label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity} "
       api_key: "ac7dd92ac2c74225a54115937242209" #https://www.weatherapi.com/my/
-      update_interval: 600
+      update_interval: 3600
       hide_decimal: true
-      location: "USA Glendale Heightes 60139"
+      location: "USA Arlington Heightes 60004"
       callbacks:
         on_left: "toggle_card"
         on_middle: "update"
@@ -184,11 +185,11 @@ widgets:
       label: "<span>{icon}</span> {level}"
       label_alt: "{volume}"
       volume_icons:
-        - "\ueee8"  # Icon for muted
-        - "\uf026"  # Icon for 0-10% volume
-        - "\uf027"  # Icon for 11-30% volume
-        - "\uf027"  # Icon for 31-60% volume
-        - "\uf028"  # Icon for 61-100% volume
+        - "\ue74F"  # Icon for muted
+        - "\ue992"  # Icon for 0-10% volume
+        - "\ue993"  # Icon for 11-30% volume
+        - "\ue994"  # Icon for 31-60% volume
+        - "\ue995"  # Icon for 61-100% volume
       audio_menu:
         blur: True
         round_corners: True
@@ -266,7 +267,7 @@ widgets:
     type: "yasb.taskbar.TaskbarWidget"
     options:
       animation: true
-      icon_size: 16
+      icon_size: 12
       ignore_apps:
         processes: []
         titles: []

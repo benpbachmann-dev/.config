@@ -1,5 +1,9 @@
 #SingleInstance Force
 
+Komorebic(cmd) {
+    RunWait(format("komorebic.exe {}", cmd), , "Hide")
+}
+
 ; Load library
 #Include komorebic.lib.ahk
 ; Load configuration
@@ -31,21 +35,6 @@
 #+Enter::Promote()         
 ; Win + LShift + Enter
 
-;;;;;;;;;;;;;;;;;;;;;;; Stack windows
-#!w::Stack("up")           
-; Win + Alt + W
-#!a::Stack("left")         
-; Win + Alt + A
-#!s::Stack("down")         
-; Win + Alt + S
-#!d::Stack("right")        
-; Win + Alt + W
-#;::Unstack()              
-; Win + Alt + ; 
-#[::CycleStack("previous") 
-; Win + Alt + [
-#]::CycleStack("next")     
-; Win + Alt + [
 ;;;;;;;;;;;;;;;;;;;; Resize
 #=::ResizeAxis("horizontal", "increase")     
 ; Win + =
@@ -56,8 +45,7 @@
 #+-::ResizeAxis("vertical", "decrease")      
 ; Win + Shift + -
 
-;;;;;;;;;;;;;;;;;;;;;; Manipulate windows
-#q::Close()                                  
+;;;;;;;;;;;;;;;;;;;;;; Manipulate windowsD#q::Close()                                  
 ; Win + q
 #+m::Minimize()                              
 ; Win + Shift + m
@@ -67,8 +55,7 @@
 ; Win + Shift + t
 
 ;;;;;;;;;;;;;;;;;;;; Window manager options
-#+r::Retile()                                
-; Win + Shift + r
+!+r::Retile()                                
 #^p::TogglePause()                           
 ; Win + Ctl + p
 

@@ -25,7 +25,7 @@
 	font-weight: bold;
 } 
 .yasb-bar {
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0, 0.061);
 	opacity: 0.0;
 	padding: 0;
 	margin: 0 0px;
@@ -130,6 +130,7 @@
     font-weight: bold;
 	font-family: "Atkinson Hyperlegible";
 	border-radius: 15%;
+    color: #ffffff;
 }
 .calendar .calendar-table{
 	border-radius: 15% ;
@@ -143,6 +144,7 @@
 	font-family: "Atkinson Hyperlegible";
     margin: 0;
     padding: 0;	 
+    color: #ffffff;
 }
 .calendar .calendar-table::item:selected {
     color: #eb9028;	
@@ -150,12 +152,14 @@
 	background-color: #232a2e6b;	
     font-weight: bold;
 	font-family: "Atkinson Hyperlegible";
+    
 
 }
 .calendar .day-label {
     margin-top: 50px;
     font-weight: bold;
 	font-family: "Atkinson Hyperlegible";
+    color: #ffffff;
 }
 .calendar .day-label,
 .calendar .month-label,
@@ -165,10 +169,12 @@
     font-size: 16px;
     min-width: 180px;
     max-width: 180px;
+    color: #ffffff;
 }
 .calendar .month-label {
     font-weight: bold;
 	font-family: "Atkinson Hyperlegible";
+    color: #ffffff;
 	
 }
 .calendar .date-label {	
@@ -176,6 +182,7 @@
     font-size: 88px;
     font-weight: 900;
     margin-top: -2.5%;
+    color: #ffffff;
 }
 
 .uptime {
@@ -258,20 +265,23 @@
 }
 .volume-widget .icon,
 .wifi-widget .icon {
-	color: #faf9fa;
+    font-family: "Segoe Fluent Icons";
+	color: #c5ddfe;
     font-size: 18px;
 	font-weight: bold;	
+    padding-right: 10%;
 }
 .volume-widget .label{
 	font-weight: bold;	
     font-family: "Atkinson Hyperlegible";
 	color: #cacaca;
+    /* padding-top: 1.2%; */
 }
 .cpu-widget .icon,
 .memory-widget .icon {
-	font-size: 14px;
+	font-size: 12px;
 	color: #cba6f7;
-	margin: 0 4px 1px 0;
+	/* margin: 0 4px 1px 0; */
 }
 .memory-widget .icon {
 	color: #a6c9f7;
@@ -297,7 +307,7 @@
 	font-weight: 900;	
 }
 .weather-widget .label{
-	color: #c8c8c8;
+	color: #ffffff;
     font-size: 14px;
     font-weight: 900;
 	font-family: "Atkinson Hyperlegible";
@@ -408,9 +418,13 @@
 .bluetooth {
     font-family: "Atkinson Hyperlegible";
     font-weight: bold;
+    text-align: center;
+    margin: auto;
 }
 .bluetooth-widget .icon {
-    font-size: 20px;
-    /* margin: 0 0 0 2.5; */
-    /* color: #1b7dc8; */
+    font-size: 16px;
+    text-align: center;
+    /* margin-bottom: 2%;
+    padding-right: 1.5%;
+    padding-bottom: 2%; */
 }
