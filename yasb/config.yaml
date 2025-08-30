@@ -26,7 +26,7 @@ bars:
       windows_app_bar: true
       hide_on_fullscreen: true
     dimensions:
-      width: "98%"
+      width: "100%"
       height: 20
     padding:
       top:    4
@@ -36,61 +36,8 @@ bars:
     widgets:
       left: ["komorebi_workspaces","komorebi_active_layout","active_window","taskbar"]
       center: ["weather","clock"]
-      right: ["media","bluetooth","volume","ahk","power_menu"]
+      right: ["media","bluetooth","volume","ahk","systray","power_menu"]
 widgets:
-  home:
-    type: "yasb.home.HomeWidget"
-    options:
-      label: "<span>\udb81\udf17</span>"
-      menu_list:
-      - { title: "User Home", path: "~" }
-      - { title: "Download", path: "~\\Downloads" }
-      - { title: "Documents", path: "~\\Documents" }
-      - { title: "Pictures", path: "~\\Pictures" }
-      system_menu: true
-      power_menu: true
-      blur: false
-  media:
-    type: "yasb.media.MediaWidget"
-    options:
-      label_alt: "{title} - {artist}"
-      label: "{title}"
-      hide_empty: true
-      callbacks:
-        on_left: "toggle_label"
-        on_middle: "do_nothing"
-        on_right: "do_nothing"      
-      max_field_size:
-        label: 30
-        label_alt: 200
-      show_thumbnail: true 
-      controls_only: false
-      controls_left: false
-      thumbnail_alpha: 45
-      thumbnail_padding: 8
-      thumbnail_corner_radius: 0
-      icons:
-        prev_track: "\ue892"
-        next_track: "\ue893"
-        play: "\ue768"
-        pause: "\ue769"
-  active_window:
-    type: "yasb.active_window.ActiveWindowWidget"
-    options:
-      label: "{win[title]}"
-      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
-      label_no_window: ""
-      label_icon: true
-      label_icon_size: 16
-      max_length: 32
-      max_length_ellipsis: "..."
-      monitor_exclusive: false
-  clock:
-    type: "yasb.clock.ClockWidget"
-    options:
-      label: "{%a, %d %b %H:%M}"
-      label_alt: "{%A, %d %B %Y %H:%M}"
-      timezones: []
   komorebi_workspaces:
     type: "komorebi.workspaces.WorkspaceWidget"
     options:
@@ -143,9 +90,108 @@ widgets:
         bottom: 0
         right: 0
       callbacks:
-        on_left: "next_layout"
-        on_middle: "toggle_monocle"
+        on_left: "toggle_layout_menu"
+        on_middle: "next_layout"
         on_right: "prev_layout"
+      layout_menu:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "left"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        show_layout_icons: true
+  home:
+    type: "yasb.home.HomeWidget"
+    options:
+      label: "<span>\udb81\udf17</span>"
+      menu_list:
+      - { title: "User Home", path: "~" }
+      - { title: "Download", path: "~\\Downloads" }
+      - { title: "Documents", path: "~\\Documents" }
+      - { title: "Pictures", path: "~\\Pictures" }
+      system_menu: true
+      power_menu: true
+      blur: false
+  media:
+    type: "yasb.media.MediaWidget"
+    options:
+      label: "{title} - {artist}"
+      label_alt: "{title}"
+      hide_empty: true
+      callbacks:
+        on_left: "toggle_label"
+        on_middle: "toggle_media_menu"
+        on_right: "do_nothing"
+      max_field_size:
+        label: 20
+        label_alt: 30
+      show_thumbnail: true
+      controls_only: false
+      controls_left: true
+      controls_hide: false
+      thumbnail_alpha: 80
+      thumbnail_padding: 8
+      thumbnail_corner_radius: 16
+      scrolling_label:
+        enabled: false
+        update_interval_ms: 33
+        style: "left"  # can be "left", "right", "bounce", "bounce-ease"
+        separator: " | "
+        label_padding: 1
+        # Easing curve params: https://www.desmos.com/calculator/j7eamemxzi
+        ease_slope: 20
+        ease_pos: 0.8
+        ease_min: 0.5
+      icons:
+        prev_track: "\ue892"
+        next_track: "\ue893"
+        play: "\ue768"
+        pause: "\ue769"
+      media_menu:
+        blur: false
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        thumbnail_corner_radius: 8
+        thumbnail_size: 120
+        max_title_size: 80
+        max_artist_size: 20
+        show_source: true
+      media_menu_icons:
+        play: "\ue768"
+        pause: "\ue769"
+        prev_track: "\ue892"
+        next_track: "\ue893"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+  active_window:
+    type: "yasb.active_window.ActiveWindowWidget"
+    options:
+      label: "{win[title]}"
+      label_alt: "[class_name='{win[class_name]}' exe='{win[process][name]}' hwnd={win[hwnd]}]"
+      label_no_window: ""
+      label_icon: true
+      label_icon_size: 16
+      max_length: 32
+      max_length_ellipsis: "..."
+      monitor_exclusive: false
+  clock:
+    type: "yasb.clock.ClockWidget"
+    options:
+      label: "{%a, %d %b %H:%M}"
+      label_alt: "{%A, %d %B %Y %H:%M}"
+      timezones: []
+
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
@@ -154,31 +200,50 @@ widgets:
       api_key: "ac7dd92ac2c74225a54115937242209" #https://www.weatherapi.com/my/
       update_interval: 3600
       hide_decimal: true
+      units: "imperial"
       location: "USA Arlington Heightes 60004"
       callbacks:
         on_left: "toggle_card"
-        on_middle: "update"
+        on_middle: "do_nothing"
         on_right: "toggle_label"
       icons:
-        sunnyDay: "\udb81\udd99"
-        clearNight: "\udb81\udd99"
-        cloudyDay: "\udb81\udd99"
-        cloudyNight: "\udb81\udd99"
-        rainyDay: "\udb81\udd99"
-        rainyNight: "\udb81\udd99"
-        snowyIcyDay: "\udb81\udd99"
-        snowyIcyNight: "\udb81\udd99"
-        blizzard: "\udb81\udd99"
-        default: "\udb81\udd99"
-      weather_card: 
-        blur: True
-        round_corners: True
+        sunnyDay: "\ue30d"
+        clearNight: "\ue32b"
+        cloudyDay: "\ue312"
+        cloudyNight: "\ue311"
+        rainyDay: "\ue308"
+        rainyNight: "\ue333"
+        snowyIcyDay: "\ue30a"
+        snowyIcyNight: "\ue335"
+        blizzardDay: "\udb83\udf36"
+        blizzardNight: "\udb83\udf36"
+        foggyDay: "\ue303"
+        foggyNight: "\ue346"
+        thunderstormDay: "\ue30f"
+        thunderstormNight: "\ue338"
+        default: "\uebaa"
+      weather_card:
+        blur: true
+        round_corners: true
         round_corners_type: "normal"
-        border_color: "System"
+        border_color: "system"
         alignment: "right"
         direction: "down"
-        distance: 6
-        icon_size: 64 
+        icon_size: 64
+        show_hourly_forecast: true # Set to False to disable hourly forecast
+        time_format: "24h" # can be 12h or 24h
+        hourly_point_spacing: 76
+        hourly_icon_size: 32 # better to set 16, 32 or 64 for better quality
+        icon_smoothing: true # should be true for smoother icon or false for sharper icon if using 16, 32 or 64 for hourly_icon_size
+        temp_line_width: 2 # can be 0 to hide the temperature line
+        current_line_color: "#8EAEE8"
+        current_line_width: 1 # can be 0 to hide the current hour line
+        current_line_style: "dot"
+      label_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
   volume:
     type: "yasb.volume.VolumeWidget"
     options:
@@ -266,17 +331,18 @@ widgets:
   taskbar:
     type: "yasb.taskbar.TaskbarWidget"
     options:
-      animation: true
-      icon_size: 12
-      ignore_apps:
-        processes: []
-        titles: []
-        classes: []
-      container_padding:
-        top: 0
-        left: 0
-        bottom: 0
-        right: 0
+        icon_size: 16
+        animation:
+          enabled: true
+        title_label:
+          enabled: false
+          show: "always"
+          min_length: 10
+          max_length: 30
+        ignore_apps:
+          processes: []
+          titles: []
+          classes: []
   ahk:
     type: "yasb.custom.CustomWidget"
     options:
@@ -285,8 +351,61 @@ widgets:
       class_name: "ahk-widget"
       callbacks:
         on_left: "exec code -n \"C:\\Users\\benpb\\.config\\"
+        on_middle: "exec pwsh -command \" komorebic stop  --ahk\" & pwsh -command \"komorebic start --ahk\" &  pwsh -command \"komorebic change-layout ultrawide-vertical-stack\""
       container_padding:
         top: 0
         left: 0
         bottom: 0
-        right: -10
+        right: 0
+  launchpad:
+    type: "yasb.launchpad.LaunchpadWidget"
+    options:
+      label: "<span>\udb85\udcde</span>"
+      search_placeholder: "Search apps..."
+      app_icon_size: 48
+      window:
+        fullscreen: false
+        width: 800
+        height: 600
+        overlay_block: true
+      window_style:
+        enable_blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "system"
+      window_animation:
+        fade_in_duration: 200
+        fade_out_duration: 200
+      callbacks:
+        on_left: "toggle_launchpad"
+      app_title_shadow:
+        enabled: true
+        color: "#00000090"
+        offset: [1, 1]
+        radius: 2
+      app_icon_shadow:
+        enabled: true
+        color: "#00000090"
+        offset: [0, 2]
+        radius: 8        
+
+  systray:
+    type: "yasb.systray.SystrayWidget"
+    options:
+      class_name: "systray"
+      label_collapsed: "▼"
+      label_expanded: "▶"
+      label_position: "left" # Can be "left" or "right"
+      icon_size: 16 # Can be any integer between 8 and 64
+      pin_click_modifier: "alt" # Can be "ctrl", "alt" or "shift"
+      show_unpinned: true
+      show_unpinned_button: true
+      show_battery: false
+      show_volume: false
+      show_network: false
+      btn_shadow:
+        enabled: true
+        color: "black"
+        radius: 3
+        offset: [ 1, 1 ]
+

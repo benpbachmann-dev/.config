@@ -1,7 +1,7 @@
 
 * {
 	font-size: 13px;
-	color: #cdd6f4;
+	color: #ffffff;
 	font-weight: 500;
 	/* font-family: "SegoeUI Nerd Font"; */
 	font-family: "JetBrainsMono NFP";
@@ -17,9 +17,10 @@
 	font-size: 14px;
 	padding: 0 2px;
 	font-family: "JetBrainsMono NFP";
+    color: #ffff;
 }
 .apps-widget .label:hover {
-	color: #fff;
+	color: #13c8b0;
 }
 .clock-wiget .label{
 	font-weight: bold;
@@ -37,7 +38,7 @@
 .widget .label {
 	padding-bottom: 2px;
     /* font-weight: bold;
-	font-family: "Atkinson Hyperlegible"; */
+	font-family: "AtkynsonMono NF"; */
 }
 .widget .label:hover {
     color: #fff;
@@ -98,99 +99,101 @@
 
 
 .active-window-widget .widget-container .label {
-    font-weight: bold;
-    font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+    font-family: "AtkynsonMono NF";
     padding-left: 3%;
 }
 
 .clock-widget {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 }
 .clock-widget .widget-container {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 }
 .clock-widget .widget-container .label {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 }
 .clock-widget .widget-container .label.alt {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 }
 .clock-widget .widget-container .icon {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 }
 
 /*CALENDAR AND VOLUME SLIDER*/
 .calendar {
     background-color: #2931362f;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 	border-radius: 15%;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 .calendar .calendar-table{
 	border-radius: 15% ;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
 }
 .calendar .calendar-table,
 .calendar .calendar-table::item {
     background-color: rgba(17, 17, 27, 0.049);	
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
     margin: 0;
-    padding: 0;	 
-    color: #ffffff;
+    padding: 0;
+ 
+    /* color: #ffffff; */
 }
 .calendar .calendar-table::item:selected {
-    color: #eb9028;	
-	border: 1px solid #232a2e6b;
-	background-color: #232a2e6b;	
+    color: #c8ffe2;	
+    border-radius: 50%;
+	border: 1px solid #ffffff;
+	background-color: #baffe154;	
     font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+	font-family: "AtkynsonMono NF";
     
 
 }
 .calendar .day-label {
-    margin-top: 50px;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
-    color: #ffffff;
+    text-align: center;
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
+    /* color: #ffffff; */
 }
 .calendar .day-label,
 .calendar .month-label,
 .calendar .date-label {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
     font-size: 16px;
     min-width: 180px;
     max-width: 180px;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 .calendar .month-label {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
-    color: #ffffff;
+    /* font-weight: bold; */
+	font-family: "AtkynsonMono NF";
+    /* color: #ffffff; */
 	
 }
 .calendar .date-label {	
-	font-family: "Atkinson Hyperlegible";
+	font-family: "AtkynsonMono NF";
     font-size: 88px;
     font-weight: 900;
     margin-top: -2.5%;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .uptime {
 	font-size: 14px;
 	margin-bottom: 10px;
-	color: #ffffff;
+	/* color: #ffffff; */
 	font-weight: 600;
-	font-family: "Atkinson Hyperlegible";
+	font-family: "AtkynsonMono NF";
 }
 .power-menu-widget .label {
     color: #f38ba8;
@@ -253,9 +256,7 @@
 
 
 /* ICONS */
-.icon,
-.media-widget .btn,
-.media-widget .btn {
+.icon{
 	font-family: "Segoe Fluent Icons";
     font-weight: 900;
 }
@@ -266,15 +267,15 @@
 .volume-widget .icon,
 .wifi-widget .icon {
     font-family: "Segoe Fluent Icons";
-	color: #c5ddfe;
+	/* color: #c5ddfe; */
     font-size: 18px;
 	font-weight: bold;	
     padding-right: 10%;
 }
 .volume-widget .label{
-	font-weight: bold;	
-    font-family: "Atkinson Hyperlegible";
-	color: #cacaca;
+	/* font-weight: bold;	 */
+    font-family: "AtkynsonMono Nerd Font";
+	/* color: #cacaca; */
     /* padding-top: 1.2%; */
 }
 .cpu-widget .icon,
@@ -296,7 +297,139 @@
     margin-right: 7px; 
 }
 
-/* WEATHER WIDGET */
+
+.komorebi-control-widget .label {
+    font-size: 14px;
+    color: #cdd6f4;
+    font-weight: 600;
+}
+.komorebi-control-menu {
+    background-color: rgba(17, 17, 27, 0.2);
+}
+.komorebi-control-menu .button {
+    color: rgba(162, 177, 199, 0.4);
+    padding: 8px 16px;
+    font-size: 32px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.04);
+}
+.komorebi-control-menu .button.active {
+    color: rgb(228, 228, 228);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+.komorebi-control-menu .button:disabled,
+.komorebi-control-menu .button.active:disabled {
+    background-color: rgba(255, 255, 255, 0.01);
+    color: rgba(255, 255, 255, 0.2);
+}
+.komorebi-control-menu .footer .text {
+    font-size: 12px;
+    color: #6c7086;
+}
+
+.taskbar-widget .app-container {
+    margin: 4px 2px;
+    border-radius: 4px;
+    padding: 0 4px;
+}
+.taskbar-widget .app-container.foreground {
+    background-color: #805291;
+}
+.taskbar-widget .app-container.flashing {
+    background-color: rgba(255, 106, 106, 0.63);
+}
+.taskbar-widget .app-container .app-title {
+    padding-left: 4px;
+}
+.volume-slider {
+    border: none;
+}
+.audio-menu {
+    background-color:#2931362f; 
+    font-family: "AtkynsonMono NF";
+}
+.audio-container .device {
+    background-color:transparent;
+    border: none;
+    font-family: "AtkynsonMono NF";
+    padding:6px 8px 6px 4px;
+    margin: 2px 0;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.audio-container .device.selected {
+    background-color: rgba(255, 255, 255, 0.085);
+    font-family: "AtkynsonMono NF";
+}
+.audio-container .device:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    font-family: "AtkynsonMono NF";
+}
+.bluetooth {
+    font-family: "AtkynsonMono NF";
+    /* font-weight: bold; */
+    text-align: center;
+    margin: auto;
+}
+.bluetooth-widget .icon {
+    font-size: 16px;
+    text-align: center;
+    /* margin-bottom: 2%;
+    padding-right: 1.5%;
+    padding-bottom: 2%; */
+}
+
+.systray {
+    background: transparent;
+    border: none;
+    margin: 0;
+}
+
+.systray .unpinned-container {
+    background: rgb(63, 63, 71);
+    border-radius: 8px;
+}
+
+.systray .pinned-container {
+    background: transparent;
+}
+
+.systray .pinned-container[forceshow=true] {
+    background: red;
+}
+
+.systray .button {
+    border-radius: 4px;
+    padding: 2px 2px;
+}
+
+.systray .button:hover {
+    background: #727272;
+}
+
+.systray .button[dragging=true] {
+    background: orange;
+    border-color: #FF8800;
+}
+
+.systray .unpinned-visibility-btn {
+    border-radius: 4px;
+    height: 20px;
+    width: 16px;
+}
+
+.systray .unpinned-visibility-btn:checked {
+    background: rgba(90, 90, 103, 0.435);
+}
+
+.systray .unpinned-visibility-btn:hover {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    border-color: #AAAAAA;
+}
+
+/* 
+
 .weather-widget .icon {
 	font-size: 18px;
 	margin: -2.5% 0 0 2.5;
@@ -308,123 +441,278 @@
 }
 .weather-widget .label{
 	color: #ffffff;
-    font-size: 14px;
-    font-weight: 900;
-	font-family: "Atkinson Hyperlegible";
+
+	font-family: "AtkynsonMono NF";
 }
 .weather-widget .icon.clearNight {
 	color: rgb(107, 189, 221);
 	font-size: 22px;
 	margin: 1px 2px 0px 0;
-	font-weight: bold;
+
+    font-weight: 900;
 }
-/* Weather card style */
+Weather card style
 .weather-card {
     background-color:  #2931362f;
     font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
-	font-weight: 200;
+	font-family: "AtkynsonMono NF";
+	font-weight: 900;
 }
-/* .weather-card-today {} */
+/* .weather-card-today {} 
 .weather-card-today .label {
     font-size: 12px;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+
+	font-family: "AtkynsonMono NF";
 }
 .weather-card-today .label.location {
     font-size: 24px;
     font-weight: 700;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+    
+	font-family: "AtkynsonMono NF";
 }
 .weather-card-today .label.arert {
     font-size: 12px;
     background-color:  #2931362f;
-    color: rgba(196, 181, 162, 0.85);
+    
     padding: 5px 0;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+   
+	font-family: "AtkynsonMono NF";
 }
 .weather-card-day {
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+   
+	font-family: "AtkynsonMono NF";
     background-color:   #2931362f;
 }
 .weather-card-day .label {
     font-size: 12px;
-    font-weight: bold;
-	font-family: "Atkinson Hyperlegible";
+   
+	font-family: "AtkynsonMono NF";
+}
+*/
+.weather-widget {}
+.weather-widget.your_class {} /* If you are using class_name option */
+.weather-widget .widget-container {}
+.weather-widget .label {
+    font-family: "AtkynsonMono NF";
+}
+.weather-widget .label.alt {
+    font-family: "AtkynsonMono NF";
+}
+.weather-widget .icon {
+    padding-right: .5em;
 }
 
-/* NEW MEDIA WIDGET */
+/* Individual weather icons */
+.weather-widget .icon.sunnyDay {}
+.weather-widget .icon.clearNight {}
+.weather-widget .icon.cloudyDay {}
+.weather-widget .icon.cloudyNight {}
+.weather-widget .icon.rainyDay {}
+.weather-widget .icon.rainyNight {}
+.weather-widget .icon.snowyIcyDay {}
+.weather-widget .icon.snowyIcyNight {}
+.weather-widget .icon.blizzardDay {}
+.weather-widget .icon.blizzardNight {}
+.weather-widget .icon.foggyDay {}
+.weather-widget .icon.foggyNight {}
+.weather-widget .icon.thunderstormDay {}
+.weather-widget .icon.thunderstormNight {}
+.weather-widget .icon.default {}
+
+/* Weather card style */
+.weather-card {
+    background-color: rgba(17, 17, 27, 0.5);
+}
+.weather-card-today {
+    font-family: "AtkynsonMono NF";
+    border: 1px solid #282936;
+    border-radius: 8px;
+    background-color:  rgba(17, 17, 27, 0.2);
+}
+.weather-card-today .label {
+    font-family: "AtkynsonMono NF";
+    font-size: 12px;
+}
+.weather-card-today .label.location {
+    font-size: 24px;
+    font-weight: 700;
+}
+.weather-card-today .label.alert {
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgba(247, 199, 42, 0.05);
+    border: 1px solid rgba(247, 209, 42, 0.1);
+    color: rgba(196, 181, 162, 0.85);
+    border-radius: 6px;
+    padding: 5px 0;
+}
+.weather-card-day {
+    border: 1px solid #45475a;
+    border-radius: 8px;
+    background-color:  rgba(17, 17, 27, 0.2);
+}
+
+.weather-card-day.active {
+    background-color: rgba(40, 40, 60, 0.6);
+    border: 1px solid rgba(50, 50, 75, 1);
+}
+
+.weather-card-day:hover {
+    background-color: rgba(40, 40, 60, 0.6);
+}
+
+.weather-card-day .label {
+    font-size: 12px;
+}
+
+.weather-card .hourly-container {
+    border: 1px solid #282936;
+    background-color: #3c5fa03a;
+    border-radius: 8px;
+    min-height: 150px;
+}
+
+.weather-card .hourly-data {
+    font-family: "AtkynsonMono NF";
+    /* color: cyan;*/ /* <- Font color */
+    background-color: #FAE93F; /* <- Curve color */
+    font-size: 12px;
+    font-weight: bold;
+}
+
 .media-widget {
-    padding-right: 0;
-    /* font-family: 'JetBrainsMono NFP'; */
-}
-.media-widget .label {
-    /* font-family:'JetBrainsMono NFP'; */
-	color: #cacaca;
-	font-weight: bold;	
-}
-.media-widget .btn {
-    /* font-family: 'JetBrainsMono NFP'; */
-	padding: 0 5px;
-	margin: 4px 2px;
-}
-.media-widget .btn:hover {
-    /* font-family: 'JetBrainsMono NFP'; */
-	color: #805291;
-}
-.media-widget .btn.play {
-    /* font-family: 'JetBrainsMono NFP'; */
-    border-radius: 12px;
-	font-size: 12px;
-}
-.media-widget .btn.disabled:hover,
-.media-widget .btn.disabled {
-    /* font-family: 'JetBrainsMono NFP'; */
-    color: #cacaca;
-	font-size: 12px;
-	background-color: rgba(0, 0, 0, 0);
-}
-.taskbar-widget {
     padding: 0;
     margin: 0;
 }
-.taskbar-widget .app-icon {
-    padding-right: 10%;
+.media-widget .label {
+    /* color: #bac2db; */
+    /* background-color: rgba(24, 24, 37, 0.7); */
+    padding: 0px;
+    padding-right: 4px;
+    font-size: 12px;
+}
+.media-widget .btn {
+    color: #ffffff;
+	padding: 0 5px;
+	margin: 4px 2px;
+    font-size: 12px;
+    font-family: Segoe Fluent Icons;
+    font-weight: 300;
+}
+.media-widget .btn:hover {
+    /* color: #babfd3; */
+}
+.media-widget .btn.play {
+    font-size: 12px;
+}
+.media-widget .btn.disabled:hover,
+.media-widget .btn.disabled {
+    /* color: #4e525c; */
+    /* font-size: 12px; */
+    /* background-color: rgba(0, 0, 0, 0); */
+}
+.media-menu {
+    min-width: 420px;
+    max-width: 420px;
+    background-color: rgb(27, 18, 51);
+}
+.media-menu .title,
+.media-menu .artist,
+.media-menu .source {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.media-menu .artist {
+    font-size: 13px;
+    color: #6c7086;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.media-menu .source {
+    font-size: 11px;
+    color: #000;
+    font-weight: normal;
+    border-radius: 3px;
+    background-color: #bac2de;
+    padding: 2px 4px;
+
+}
+/* The source class name is the same as what you see in the media widget; just replace spaces with dashes and convert it to lowercase. 
+Example: "Windows Media" becomes "windows-media" */
+.media-menu .source.zen {
+    background-color: #ff583b;
+    color: #ffffff;
+}
+.media-menu .source.spotify {
+    background-color: #199143;
+    color: #ffffff;
+}
+.media-menu .source.edge {
+    background-color: #0078d4;
+    color: #ffffff;
+}
+.media-menu .source.windows-media {
+    background-color: #0078d4;
+    color: #ffffff;
 }
 
-.volume-slider {
-    border: none;
+.media-menu .btn {
+    font-family: "Segoe Fluent Icons";
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 2px 0px 2px;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 40px;
+    max-height: 40px;
+    border-radius: 20px;
 }
-.audio-menu {
-    background-color:#2931362f; 
+.media-menu .btn.prev {
+    margin-left: 10px;
 }
-.audio-container .device {
-    background-color:transparent;
-    border: none;
-    padding:6px 8px 6px 4px;
-    margin: 2px 0;
-    font-size: 12px;
-    border-radius: 4px;
+.media-menu .btn:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-.audio-container .device.selected {
-    background-color: rgba(255, 255, 255, 0.085);
+.media-menu .btn.play {
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 20px
 }
-.audio-container .device:hover {
-    background-color: rgba(255, 255, 255, 0.06);
+.media-menu .btn.disabled:hover,
+.media-menu .btn.disabled {
+    color: #4e525c;
+    background-color: rgba(0, 0, 0, 0.594);
 }
-.bluetooth {
-    font-family: "Atkinson Hyperlegible";
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
+
+.media-menu .playback-time {
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7f849c;
+    margin-top: 20px;
+    min-width: 100px;
 }
-.bluetooth-widget .icon {
-    font-size: 16px;
-    text-align: center;
-    /* margin-bottom: 2%;
-    padding-right: 1.5%;
-    padding-bottom: 2%; */
+.media-menu .progress-slider {
+    height: 10px;
+    margin: 5px 4px;
+    border-radius: 3px;
+}
+.media-menu .progress-slider::groove {
+    background: transparent;
+    height: 2px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+.media-menu .progress-slider::groove:hover {
+    background: transparent;
+    height: 6px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.media-menu .progress-slider::sub-page {
+    background: white;
+    border-radius: 3px;
+    height: 4px;
 }
