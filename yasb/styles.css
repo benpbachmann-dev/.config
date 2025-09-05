@@ -1,4 +1,15 @@
-
+:root {
+    --background:#2e3440;
+    --red:#bf616a;
+    --green:#a3be8c;
+    --yellow:#ebcb8b;
+    --blue:#3da04265;
+    --pink:#b48ead;
+    --text:#88d09c;
+    --base1: #506a4c73;
+    --base2:#22914547;
+    --base3:#3e523b62;
+}
 * {
 	font-size: 13px;
 	color: #ffffff;
@@ -195,64 +206,53 @@
 	font-weight: 600;
 	font-family: "AtkynsonMono NF";
 }
-.power-menu-widget .label {
-    color: #f38ba8;
-    font-size: 13px;
-}
-.power-menu-popup {
-    background-color: transparent
+
+/*POWER MENU POPUP*/
+.uptime {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: rgba(191, 202, 219, 0.726);
+	font-weight: 600;
+	font-family: "Bahnschrift", Tahoma, Geneva, Verdana, sans-serif;
 }
 .power-menu-popup .button {
-    padding: 0;
-    width: 180px;
-    height: 230px;
-    border-radius: 8px;
-    background-color: var(--crust);
-    color: var(--text);
-    border-left: 4px solid rgba(58, 59, 83, 0);
-    border-right: 4px solid rgba(58, 59, 83, 0);
-    border-top: 4px solid rgba(58, 59, 83, 0);
-    border-bottom: 4px solid rgba(58, 59, 83, 0);
-    margin: 0px;
+	padding: 0px;
+	width: 280px;
+	height: 250px;
+	border-radius: 20px;
+	background-color: var(--base3);
+	font-family: "Bahnschrift", Tahoma, Geneva, Verdana, sans-serif;
+	color: white;
+	border: 4px solid rgba(255, 255, 255, 0);
+
 }
 .power-menu-popup .button.hover {
-    background-color: var(--base);
-    border-left: 4px solid var(--base);
-    border-right: 4px solid var(--base);
-    border-top: 4px solid var(--base);
-    border-bottom: 4px solid var(--base);
-}
+	background-color: var(--base2);
+	border: 0px solid rgb(55, 56, 75);
 
+}
 .power-menu-popup .button .label {
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--overlay2)
+	margin-bottom: 8px;
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(238, 238, 238);
+	font-family: "Bahnschrift", Tahoma, Geneva, Verdana, sans-serif;
 }
 .power-menu-popup .button .icon {
-    font-size: 64px;
-    padding-top: 32px;
-    color: var(--surface2)
-}
+	font-size: 100px;
+	padding-top: 52px;
+	color: var(--text);
+    align-content: center;
 
+}
 .power-menu-popup .button.cancel .icon {
-    padding: 0;
-    margin: 0;
+	color: var(--red);
+
 }
 .power-menu-popup .button.cancel .label {
-    color: var(--red);
-    margin: 0;
+	color: rgba(243, 139, 168, 0.95);
+
 }
-.power-menu-popup .button.cancel {
-    height: 32px;
-    border-radius: 4px;
-}
-
-
-
-
-
-
 
 
 /* ICONS */
@@ -328,12 +328,14 @@
 }
 
 .taskbar-widget .app-container {
-    margin: 4px 2px;
+    /* margin: 4px 2px; */
     border-radius: 4px;
     padding: 0 4px;
+    margin: 1px 1px 1px 1px;
 }
 .taskbar-widget .app-container.foreground {
-    background-color: #805291;
+    background-color: #695a6e;
+
 }
 .taskbar-widget .app-container.flashing {
     background-color: rgba(255, 106, 106, 0.63);
