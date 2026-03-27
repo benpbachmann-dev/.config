@@ -1992,3 +1992,874 @@ RuntimeError: Event loop stopped before Future completed.
 2026-03-27 08:43:15,773 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
 2026-03-27 08:43:31,316 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
 2026-03-27 08:43:31,376 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 09:27:45,035 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 09:43:15,067 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 09:43:15.066229
+2026-03-27 10:42:37,315 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 10:42:37,381 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 10:42:37,490 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 10:42:37,491 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 10:42:37,500 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 10:42:37,694 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 10:42:37,702 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 10:42:37,709 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 10:42:37,724 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 1246438
+2026-03-27 10:42:37,725 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 1246438
+2026-03-27 10:42:37,729 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 1246438
+2026-03-27 10:42:38,079 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 10:42:38,079 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 10:42:38,080 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 10:42:38,896 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 10:42:39,341 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 10:42:39,345 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 10:42:39,346 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-95dfcf0b-29f3-11f1-a93a-a4b1c1adca22
+2026-03-27 10:42:39,346 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 10:42:39,347 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 10:42:39,459 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 10:42:39,500 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 10:42:39,502 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 10:42:39,556 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-95dfcf0b-29f3-11f1-a93a-a4b1c1adca22
+2026-03-27 10:42:39,829 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 3739630
+2026-03-27 10:42:39,835 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 10:42:39,840 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 10:42:39,840 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 10:42:39,863 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 10:42:39.863547
+2026-03-27 10:45:54,802 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 10:45:54,837 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 10:45:54,938 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 10:45:54,938 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 10:45:54,942 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 10:45:55,105 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 10:45:55,109 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 10:45:55,111 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 10:45:55,112 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 3739630
+2026-03-27 10:45:55,113 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 3739630
+2026-03-27 10:45:55,114 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 3739630
+2026-03-27 10:45:55,454 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 10:45:55,455 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 10:45:55,455 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 10:45:56,121 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 10:45:56,558 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 10:45:56,562 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 10:45:56,563 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 10:45:56,563 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 10:45:56,563 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-0b6ca25f-29f4-11f1-b078-a4b1c1adca22
+2026-03-27 10:45:56,651 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 10:45:56,670 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 10:45:56,672 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 10:45:56,721 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-0b6ca25f-29f4-11f1-b078-a4b1c1adca22
+2026-03-27 10:45:56,974 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 1640980
+2026-03-27 10:45:56,978 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 10:45:56,981 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 10:45:56,981 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 10:45:56,991 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 10:45:56.991948
+2026-03-27 10:46:23,979 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 10:47:48,355 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:48:13,806 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:49:19,231 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:49:26,692 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:49:38,488 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:49:38,521 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:49:56,709 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:50:49,621 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:50:56,997 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:50:57,031 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:51:10,644 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:51:17,165 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 10:56:31,559 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 10:56:31,559 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 10:56:31,560 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 10:56:31,560 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-03-27 10:56:49,779 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-03-27 10:56:49,894 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 10:56:49,894 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 10:56:50,004 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 10:56:50,007 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 10:56:50,009 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 10:56:50,010 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 1640980
+2026-03-27 10:56:50,011 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 1640980
+2026-03-27 10:56:50,012 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 1640980
+2026-03-27 10:56:55,344 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 10:56:55,344 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 10:56:55,344 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 10:56:56,053 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 10:56:56,418 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 10:56:56,422 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 10:56:56,423 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 10:56:56,424 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 10:56:56,424 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-94bb5ed3-29f5-11f1-8c93-a4b1c1adca22
+2026-03-27 10:56:56,523 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 10:56:56,540 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 10:56:56,541 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 10:56:56,558 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-94bb5ed3-29f5-11f1-8c93-a4b1c1adca22
+2026-03-27 10:56:56,770 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 10:56:56.770805
+2026-03-27 10:56:56,786 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2688292
+2026-03-27 10:56:56,786 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 10:56:56,797 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 10:56:56,797 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 11:00:11,736 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 11:00:11,737 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 11:00:11,737 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 11:00:11,737 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-03-27 11:02:17,543 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-03-27 11:02:17,656 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 11:02:17,657 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 11:02:17,806 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 11:02:17,809 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 11:02:17,811 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:02:17,812 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2688292
+2026-03-27 11:02:17,813 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2688292
+2026-03-27 11:02:17,814 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2688292
+2026-03-27 11:07:09,057 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 11:07:09,058 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 11:07:09,058 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 11:07:09,663 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 11:07:10,009 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 11:07:10,013 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 11:07:10,014 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-0275efe0-29f7-11f1-829d-a4b1c1adca22
+2026-03-27 11:07:10,014 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 11:07:10,015 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 11:07:10,108 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 11:07:10,125 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:07:10,126 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 11:07:10,151 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-0275efe0-29f7-11f1-829d-a4b1c1adca22
+2026-03-27 11:07:10,337 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 24185970
+2026-03-27 11:07:10,338 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 11:07:10,343 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 11:07:10,343 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 11:07:10,349 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 11:07:10.349965
+2026-03-27 11:10:12,675 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:10:12,676 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 11:10:12,735 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:10:12,780 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 11:10:12,780 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 11:10:12,785 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 11:10:12,991 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 11:10:12,996 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 11:10:12,999 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:10:13,000 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 24185970
+2026-03-27 11:10:13,000 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 24185970
+2026-03-27 11:10:13,002 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 24185970
+2026-03-27 11:10:13,272 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 11:10:13,272 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 11:10:13,273 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 11:10:13,273 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 11:10:13,701 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 11:10:14,408 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 11:10:14,415 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 11:10:14,416 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-705f70d0-29f7-11f1-93a2-a4b1c1adca22
+2026-03-27 11:10:14,417 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 11:10:14,417 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 11:10:14,495 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 11:10:14,520 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:10:14,522 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 11:10:14,555 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-705f70d0-29f7-11f1-93a2-a4b1c1adca22
+2026-03-27 11:10:14,757 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 11:10:14.757112
+2026-03-27 11:10:14,769 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 8130896
+2026-03-27 11:10:14,769 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 11:10:14,775 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 11:10:14,775 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 11:10:29,660 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:10:29,661 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 11:10:29,712 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:10:29,775 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 11:10:29,775 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 11:10:29,780 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 11:10:29,952 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 11:10:29,956 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 11:10:29,958 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:10:29,959 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 8130896
+2026-03-27 11:10:29,960 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 8130896
+2026-03-27 11:10:29,961 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 8130896
+2026-03-27 11:10:30,252 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 11:10:30,253 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 11:10:30,253 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 11:10:30,254 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 11:10:30,616 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 11:10:31,296 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 11:10:31,301 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 11:10:31,301 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 11:10:31,302 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 11:10:31,302 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-7a6feb66-29f7-11f1-8018-a4b1c1adca22
+2026-03-27 11:10:31,364 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 11:10:31,376 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:10:31,378 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 11:10:31,417 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-7a6feb66-29f7-11f1-8018-a4b1c1adca22
+2026-03-27 11:10:31,443 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 11:10:31.443843
+2026-03-27 11:10:31,615 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 9308526
+2026-03-27 11:10:31,616 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 11:10:31,622 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 11:10:31,622 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 11:11:12,653 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:11:12,693 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 11:11:12,807 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 11:11:12,808 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 11:11:12,812 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 11:11:12,995 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 11:11:13,000 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 11:11:13,003 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:11:13,004 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 9308526
+2026-03-27 11:11:13,004 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 9308526
+2026-03-27 11:11:13,006 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 9308526
+2026-03-27 11:11:13,339 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 11:11:13,339 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 11:11:13,339 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 11:11:13,340 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 11:11:13,721 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 11:11:14,591 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 11:11:14,596 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 11:11:14,597 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 11:11:14,597 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 11:11:14,597 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-943e43d2-29f7-11f1-8edb-a4b1c1adca22
+2026-03-27 11:11:14,709 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 11:11:14,724 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:11:14,731 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 11:11:14,753 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-943e43d2-29f7-11f1-8edb-a4b1c1adca22
+2026-03-27 11:11:14,823 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 11:11:14.823753
+2026-03-27 11:11:14,979 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 7278194
+2026-03-27 11:11:14,980 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 11:11:14,987 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 11:11:14,987 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 11:11:39,354 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 11:12:12,086 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:12:12,122 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 11:12:12,236 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 11:12:12,237 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 11:12:12,241 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 11:12:12,404 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 11:12:12,408 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 11:12:12,411 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:12:12,412 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 7278194
+2026-03-27 11:12:12,413 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 7278194
+2026-03-27 11:12:12,414 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 7278194
+2026-03-27 11:12:12,685 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 11:12:12,685 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 11:12:12,686 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 11:12:12,686 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 11:12:13,028 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 11:12:13,795 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 11:12:13,800 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 11:12:13,801 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 11:12:13,801 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 11:12:13,801 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-b7881d7c-29f7-11f1-a489-a4b1c1adca22
+2026-03-27 11:12:13,882 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 11:12:13,895 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 11:12:13,897 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 11:12:13,934 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-b7881d7c-29f7-11f1-a489-a4b1c1adca22
+2026-03-27 11:12:13,982 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 11:12:13.982587
+2026-03-27 11:12:14,140 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 724592
+2026-03-27 11:12:14,141 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 11:12:14,147 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 11:12:14,147 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 11:12:25,712 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:31:25,916 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:31:37,020 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:31:40,506 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:32:12,855 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 11:33:41,427 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 13:50:29,973 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-03-27 13:50:29,974 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-03-27 13:50:40,181 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 13:50:40.181285
+2026-03-27 14:50:29,699 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 14:50:29.699368
+2026-03-27 15:32:19,785 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-27 15:32:19,786 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-27 15:32:22,786 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-b7881d7c-29f7-11f1-a489-a4b1c1adca22
+2026-03-27 15:32:22,874 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-b7881d7c-29f7-11f1-a489-a4b1c1adca22
+2026-03-27 15:32:35,905 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from tray...
+2026-03-27 15:32:36,019 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:32:36,019 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:32:36,035 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:32:36,041 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 724592
+2026-03-27 15:32:36,132 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 724592
+2026-03-27 15:32:36,133 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 724592
+2026-03-27 15:32:36,148 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:32:41,170 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:32:41,170 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:32:41,171 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:32:41,179 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:32:41,638 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:32:42,736 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:32:42,741 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:32:42,742 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:32:42,742 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:32:42,773 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-1b1b3ad9-2a1c-11f1-b6b9-a4b1c1adca22
+2026-03-27 15:32:42,837 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:32:42,897 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:32:42,918 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:32:42,945 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1b1b3ad9-2a1c-11f1-b6b9-a4b1c1adca22
+2026-03-27 15:32:43,036 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:32:43,139 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:32:43.139044
+2026-03-27 15:32:43,180 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 33360256
+2026-03-27 15:32:43,195 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:32:43,195 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:33:24,852 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:33:24,902 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:34:37,668 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:34:37,669 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:34:37,729 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:34:37,778 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:34:37,779 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:34:37,784 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:34:38,037 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:34:38,044 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:34:38,046 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:34:38,047 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 33360256
+2026-03-27 15:34:38,048 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 33360256
+2026-03-27 15:34:38,048 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 33360256
+2026-03-27 15:34:38,226 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:34:38,227 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:34:38,227 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:34:38,228 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:34:38,228 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:34:38,478 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:34:38,858 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:34:39,702 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:34:39,706 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:34:39,707 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:34:39,707 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:34:39,726 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-60d2b882-2a1c-11f1-acf3-a4b1c1adca22
+2026-03-27 15:34:39,773 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:34:39,795 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:34:39,803 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:34:39,859 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-60d2b882-2a1c-11f1-acf3-a4b1c1adca22
+2026-03-27 15:34:39,890 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:34:39.890750
+2026-03-27 15:34:40,105 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:34:40,122 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 8787288
+2026-03-27 15:34:40,129 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:34:40,129 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:36:00,405 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:36:00,457 [ERROR] [MainThread] [root/config.py:121]: The config file 'C:\Users\benpb\.config\yasb\config.yaml' contains validation errors. Please fix:
+home:
+- Extra inputs are not permitted
+
+2026-03-27 15:36:00,865 [ERROR] [MainThread] [root/app_icons.py:282]: GetIconInfo failed: 1267336955
+2026-03-27 15:36:21,869 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:36:21,905 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:36:22,005 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:36:22,006 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:36:22,010 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:36:22,242 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:36:22,245 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:36:22,265 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:36:22,267 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 8787288
+2026-03-27 15:36:22,268 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 8787288
+2026-03-27 15:36:22,270 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 8787288
+2026-03-27 15:36:22,471 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:36:22,471 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:36:22,471 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:36:22,472 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:36:22,866 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:36:23,842 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:36:23,846 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:36:23,847 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:36:23,847 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:36:23,848 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-9ee5390c-2a1c-11f1-ac4b-a4b1c1adca22
+2026-03-27 15:36:23,916 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:36:23,936 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:36:23,938 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:36:23,982 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-9ee5390c-2a1c-11f1-ac4b-a4b1c1adca22
+2026-03-27 15:36:24,054 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:36:24,340 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2691376
+2026-03-27 15:36:24,360 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:36:24,360 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:36:24,404 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:36:24.404412
+2026-03-27 15:37:21,499 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:37:21,536 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:37:21,638 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:37:21,638 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:37:21,642 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:37:21,900 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:37:21,906 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:37:21,908 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:37:21,909 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2691376
+2026-03-27 15:37:21,910 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2691376
+2026-03-27 15:37:21,910 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2691376
+2026-03-27 15:37:22,124 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:37:22,125 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:37:22,125 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:37:22,126 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:37:22,530 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:37:23,522 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:37:23,526 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:37:23,527 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:37:23,527 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:37:23,528 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-c277a096-2a1c-11f1-942a-a4b1c1adca22
+2026-03-27 15:37:23,604 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:37:23,663 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:37:23,677 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:37:23,729 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-c277a096-2a1c-11f1-942a-a4b1c1adca22
+2026-03-27 15:37:23,810 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:37:23.810462
+2026-03-27 15:37:24,118 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:37:24,178 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2756912
+2026-03-27 15:37:24,196 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:37:24,196 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:37:38,955 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:37:39,000 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:37:39,101 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:37:39,101 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:37:39,105 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:37:39,340 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:37:39,344 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:37:39,346 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:37:39,347 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2756912
+2026-03-27 15:37:39,348 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2756912
+2026-03-27 15:37:39,348 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2756912
+2026-03-27 15:37:39,559 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:37:39,559 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:37:39,560 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:37:39,560 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:37:39,954 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:37:40,935 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:37:40,940 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:37:40,941 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:37:40,941 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:37:40,942 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-ccd8c899-2a1c-11f1-aa45-a4b1c1adca22
+2026-03-27 15:37:41,009 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:37:41,049 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:37:41,057 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:37:41,107 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-ccd8c899-2a1c-11f1-aa45-a4b1c1adca22
+2026-03-27 15:37:41,111 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:37:41.110980
+2026-03-27 15:37:41,372 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 7541872
+2026-03-27 15:37:41,373 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:37:41,381 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:37:41,381 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:37:44,588 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:37:44,629 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:37:44,730 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:37:44,730 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:37:44,735 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:37:44,967 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:37:44,973 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:37:44,976 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:37:44,977 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 7541872
+2026-03-27 15:37:44,977 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 7541872
+2026-03-27 15:37:44,978 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 7541872
+2026-03-27 15:37:45,177 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:37:45,177 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:37:45,178 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:37:45,178 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:37:45,178 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:37:45,429 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:37:45,776 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:37:46,747 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:37:46,751 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:37:46,752 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:37:46,752 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:37:46,752 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-d04f71ed-2a1c-11f1-91bd-a4b1c1adca22
+2026-03-27 15:37:46,812 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:37:46,828 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:37:46,830 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:37:46,871 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-d04f71ed-2a1c-11f1-91bd-a4b1c1adca22
+2026-03-27 15:37:46,904 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:37:46.904759
+2026-03-27 15:37:47,012 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:37:47,171 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 28775910
+2026-03-27 15:37:47,180 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:37:47,181 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:39:54,604 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:39:54,640 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:39:54,741 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:39:54,741 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:39:54,746 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:39:55,012 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:39:55,020 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:39:55,022 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:39:55,024 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 28775910
+2026-03-27 15:39:55,024 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 28775910
+2026-03-27 15:39:55,026 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 28775910
+2026-03-27 15:39:55,217 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:39:55,218 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:39:55,218 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:39:55,219 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:39:55,597 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:39:56,576 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:39:56,580 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:39:56,581 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:39:56,581 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:39:56,581 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-1db1cd45-2a1d-11f1-8f96-a4b1c1adca22
+2026-03-27 15:39:56,644 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:39:56,670 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:39:56,677 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:39:56,725 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-1db1cd45-2a1d-11f1-8f96-a4b1c1adca22
+2026-03-27 15:39:56,984 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:39:56,992 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 21367848
+2026-03-27 15:39:57,009 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:39:57,010 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:39:57,026 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:39:57.026427
+2026-03-27 15:40:07,947 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:40:07,966 [ERROR] [MainThread] [root/config.py:133]: The file 'C:\Users\benpb\.config\yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a block mapping
+  in "C:\Users\benpb\.config\yasb\config.yaml", line 219, column 9
+expected <block end>, but found ']'
+  in "C:\Users\benpb\.config\yasb\config.yaml", line 227, column 37
+2026-03-27 15:40:11,209 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:40:11,243 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:40:11,350 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:40:11,350 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:40:11,354 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:40:11,578 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:40:11,583 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:40:11,586 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:40:11,587 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 21367848
+2026-03-27 15:40:11,587 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 21367848
+2026-03-27 15:40:11,588 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 21367848
+2026-03-27 15:40:11,823 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:40:11,823 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:40:11,824 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:40:11,824 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:40:12,211 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:40:13,165 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:40:13,170 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:40:13,171 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:40:13,171 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:40:13,171 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-27952cb2-2a1d-11f1-bd01-a4b1c1adca22
+2026-03-27 15:40:13,232 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:40:13,246 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:40:13,248 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:40:13,288 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-27952cb2-2a1d-11f1-bd01-a4b1c1adca22
+2026-03-27 15:40:13,329 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:40:13.329658
+2026-03-27 15:40:13,542 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 28119572
+2026-03-27 15:40:13,543 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:40:13,553 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:40:13,553 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:40:36,368 [ERROR] [MainThread] [root/home.py:78]: The system cannot find the file specified: 'D:\Downloads'
+2026-03-27 15:40:53,422 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:40:53,457 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:40:53,565 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:40:53,565 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:40:53,569 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:40:53,806 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:40:53,812 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:40:53,815 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:40:53,816 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 28119572
+2026-03-27 15:40:53,817 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 28119572
+2026-03-27 15:40:53,818 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 28119572
+2026-03-27 15:40:54,022 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:40:54,023 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:40:54,023 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:40:54,024 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:40:54,024 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:40:54,275 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:40:54,671 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:40:55,744 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:40:55,750 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:40:55,751 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-40f66049-2a1d-11f1-a9af-a4b1c1adca22
+2026-03-27 15:40:55,751 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:40:55,751 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:40:55,816 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:40:55,835 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:40:55,843 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:40:55,886 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-40f66049-2a1d-11f1-a9af-a4b1c1adca22
+2026-03-27 15:40:55,936 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:40:55.936642
+2026-03-27 15:40:56,007 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:40:56,184 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 9703172
+2026-03-27 15:40:56,193 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:40:56,193 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:41:40,543 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:42:02,324 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:42:38,567 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:42:50,620 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:42:59,917 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:43:19,014 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:43:31,435 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:43:39,883 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:43:42,803 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:44:22,693 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:44:42,484 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:45:34,546 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:45:34,594 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:45:34,695 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:45:34,695 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:45:34,699 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:45:34,975 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:45:34,983 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:45:34,986 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:45:34,987 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 9703172
+2026-03-27 15:45:34,988 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 9703172
+2026-03-27 15:45:34,989 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 9703172
+2026-03-27 15:45:35,217 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:45:35,218 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:45:35,219 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:45:35,220 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:45:35,652 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:45:36,591 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:45:36,595 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:45:36,596 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:45:36,596 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:45:36,596 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-e85c02b3-2a1d-11f1-9ab7-a4b1c1adca22
+2026-03-27 15:45:36,655 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:45:36,674 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:45:36,682 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:45:36,719 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e85c02b3-2a1d-11f1-9ab7-a4b1c1adca22
+2026-03-27 15:45:37,058 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:45:37,114 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:45:37.114106
+2026-03-27 15:45:37,135 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 12780466
+2026-03-27 15:45:37,151 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:45:37,151 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:45:49,471 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:45:49,511 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:45:49,614 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:45:49,614 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:45:49,618 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:45:49,854 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:45:49,858 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:45:49,860 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:45:49,861 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 12780466
+2026-03-27 15:45:49,863 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 12780466
+2026-03-27 15:45:49,864 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 12780466
+2026-03-27 15:45:50,082 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:45:50,082 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:45:50,083 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:45:50,083 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:45:50,083 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:45:50,334 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:45:50,712 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:45:51,742 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:45:51,746 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:45:51,748 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:45:51,748 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:45:51,748 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-f163e503-2a1d-11f1-b5bb-a4b1c1adca22
+2026-03-27 15:45:51,808 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:45:51,823 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:45:51,833 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:45:51,875 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-f163e503-2a1d-11f1-b5bb-a4b1c1adca22
+2026-03-27 15:45:51,935 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:45:51.935512
+2026-03-27 15:45:52,037 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:45:52,316 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 20059562
+2026-03-27 15:45:52,329 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:45:52,329 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:46:15,532 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:46:15,567 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:46:15,668 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:46:15,668 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:46:15,672 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:46:15,935 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:46:15,940 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:46:15,942 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:46:15,943 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 20059562
+2026-03-27 15:46:15,944 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 20059562
+2026-03-27 15:46:15,945 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 20059562
+2026-03-27 15:46:16,162 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:46:16,163 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:46:16,163 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:46:16,164 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:46:16,164 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:46:16,414 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:46:16,815 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:46:17,846 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:46:17,851 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:46:17,852 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:46:17,852 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:46:17,853 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-00f3187f-2a1e-11f1-967b-a4b1c1adca22
+2026-03-27 15:46:17,917 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:46:17,954 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:46:17,963 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:46:18,024 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-00f3187f-2a1e-11f1-967b-a4b1c1adca22
+2026-03-27 15:46:18,052 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:46:18,071 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:46:18.070972
+2026-03-27 15:46:18,316 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 11146552
+2026-03-27 15:46:18,325 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:46:18,326 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:47:43,558 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:47:43,592 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:47:43,692 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:47:43,692 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:47:43,696 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:47:43,945 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:47:43,948 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:47:43,950 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:47:43,951 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 11146552
+2026-03-27 15:47:43,952 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 11146552
+2026-03-27 15:47:43,952 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 11146552
+2026-03-27 15:47:44,163 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:47:44,163 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:47:44,163 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:47:44,164 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:47:44,553 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:47:45,611 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:47:45,615 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:47:45,616 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:47:45,616 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:47:45,633 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-3542e4ab-2a1e-11f1-bfeb-a4b1c1adca22
+2026-03-27 15:47:45,675 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:47:45,699 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:47:45,707 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:47:45,759 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-3542e4ab-2a1e-11f1-bfeb-a4b1c1adca22
+2026-03-27 15:47:45,781 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:47:45.781274
+2026-03-27 15:47:46,095 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:47:46,155 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 11998350
+2026-03-27 15:47:46,173 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:47:46,173 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:49:49,459 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:49:49,494 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:49:49,595 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:49:49,596 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:49:49,600 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:49:49,874 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:49:49,881 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:49:49,883 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:49:49,884 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 11998350
+2026-03-27 15:49:49,886 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 11998350
+2026-03-27 15:49:49,888 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 11998350
+2026-03-27 15:49:50,108 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:49:50,108 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:49:50,108 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:49:50,109 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:49:50,532 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:49:51,650 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:49:51,658 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:49:51,660 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:49:51,660 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:49:51,694 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-8063957a-2a1e-11f1-b0fc-a4b1c1adca22
+2026-03-27 15:49:51,758 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:49:51,800 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:49:51,808 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:49:51,874 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-8063957a-2a1e-11f1-b0fc-a4b1c1adca22
+2026-03-27 15:49:52,005 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:49:52,020 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:49:52.020321
+2026-03-27 15:49:52,059 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 11867674
+2026-03-27 15:49:52,069 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:49:52,069 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:50:04,071 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:50:04,105 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:50:04,207 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:50:04,207 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:50:04,212 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:50:04,453 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:50:04,457 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:50:04,459 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:04,460 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 11867674
+2026-03-27 15:50:04,461 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 11867674
+2026-03-27 15:50:04,462 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 11867674
+2026-03-27 15:50:04,738 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:50:04,739 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:50:04,739 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:50:04,740 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:50:04,740 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:50:04,990 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:50:05,366 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:50:06,636 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:50:06,640 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:50:06,641 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-895193a5-2a1e-11f1-a149-a4b1c1adca22
+2026-03-27 15:50:06,641 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:50:06,641 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:50:06,710 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:50:06,741 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:06,744 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:50:06,798 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-895193a5-2a1e-11f1-a149-a4b1c1adca22
+2026-03-27 15:50:06,857 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:50:06.857629
+2026-03-27 15:50:07,108 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:50:07,217 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2359772
+2026-03-27 15:50:07,228 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:50:07,229 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:50:31,185 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:50:31,224 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:50:31,328 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:50:31,328 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:50:31,334 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:50:31,582 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:50:31,591 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:50:31,593 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:31,594 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2359772
+2026-03-27 15:50:31,595 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2359772
+2026-03-27 15:50:31,595 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2359772
+2026-03-27 15:50:31,861 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:50:31,862 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:50:31,862 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:50:31,863 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:50:32,363 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:50:33,701 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:50:33,708 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:50:33,711 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:50:33,711 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:50:33,711 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-9973e63a-2a1e-11f1-8100-a4b1c1adca22
+2026-03-27 15:50:33,795 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:50:33,829 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:33,841 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:50:33,892 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-9973e63a-2a1e-11f1-8100-a4b1c1adca22
+2026-03-27 15:50:33,958 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:50:33.958131
+2026-03-27 15:50:34,041 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:50:34,287 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2425308
+2026-03-27 15:50:34,308 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:50:34,308 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:50:46,252 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:50:46,280 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:50:46,392 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:50:46,392 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:50:46,398 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:50:46,637 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:50:46,650 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:50:46,653 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:46,654 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2425308
+2026-03-27 15:50:46,655 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2425308
+2026-03-27 15:50:46,657 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2425308
+2026-03-27 15:50:46,910 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:50:46,911 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:50:46,911 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:50:46,912 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:50:47,324 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:50:48,439 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:50:48,446 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:50:48,447 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:50:48,447 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:50:48,474 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-a23ca447-2a1e-11f1-903f-a4b1c1adca22
+2026-03-27 15:50:48,523 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:50:48,547 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:48,557 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:50:48,610 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-a23ca447-2a1e-11f1-903f-a4b1c1adca22
+2026-03-27 15:50:48,653 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:50:48.653620
+2026-03-27 15:50:48,957 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 2490844
+2026-03-27 15:50:48,958 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:50:48,977 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:50:48,977 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:50:59,549 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-27 15:50:59,594 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-03-27 15:50:59,698 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-27 15:50:59,698 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-27 15:50:59,702 [INFO] [MainThread] [root/bar_manager.py:85]: Successfully loaded updated config and re-initialised all bars.
+2026-03-27 15:50:59,936 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-27 15:50:59,953 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-27 15:50:59,955 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:50:59,956 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 2490844
+2026-03-27 15:50:59,957 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 2490844
+2026-03-27 15:50:59,958 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 2490844
+2026-03-27 15:51:00,206 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-27 15:51:00,207 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-27 15:51:00,207 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-27 15:51:00,208 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-27 15:51:00,208 [INFO] [MainThread] [root/main.py:46]: Waiting for previous YASB instance to exit...
+2026-03-27 15:51:00,458 [INFO] [MainThread] [root/main.py:72]: Previous instance exited, continuing startup.
+2026-03-27 15:51:00,846 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-27 15:51:01,851 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-27 15:51:01,857 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-27 15:51:01,858 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-27 15:51:01,858 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-27 15:51:01,858 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-27 15:51:01,930 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-27 15:51:01,945 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-27 15:51:01,946 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-27 15:51:01,982 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-27 15:51:02,050 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-27 15:51:02,055 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 15:51:02.055311
+2026-03-27 15:51:02,388 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 20583850
+2026-03-27 15:51:02,403 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-27 15:51:02,404 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-27 15:51:32,396 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:52:44,463 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:52:54,336 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:01,433 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:03,548 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:08,369 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:14,338 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:15,553 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:16,672 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:28,401 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:45,540 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:53:53,044 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:54:00,776 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:54:12,528 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:54:57,280 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:55:10,679 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:55:40,039 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:56:45,335 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:57:01,152 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:57:33,980 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 15:57:49,804 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
