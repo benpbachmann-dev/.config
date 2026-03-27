@@ -56,5 +56,12 @@
         }
       ]
     }
+  ],
+    "ignore_rules": [
+    {
+      "kind": "Title",
+      "id": "Command Palette",
+      "matching_strategy": "Equals"
+    }
   ]
 }

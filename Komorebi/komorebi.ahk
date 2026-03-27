@@ -45,7 +45,8 @@ Komorebic(cmd) {
 #+-::ResizeAxis("vertical", "decrease")      
 ; Win + Shift + -
 
-;;;;;;;;;;;;;;;;;;;;;; Manipulate windowsD#q::Close()                                  
+;;;;;;;;;;;;;;;;;;;;;; Manipulate windowsD                                 
+#q::Close() 
 ; Win + q
 #+m::Minimize()                              
 ; Win + Shift + m
@@ -56,6 +57,7 @@ Komorebic(cmd) {
 
 ;;;;;;;;;;;;;;;;;;;; Window manager options
 !+r::Retile()                                
+; Alt+Shift+r
 #^p::TogglePause()                           
 ; Win + Ctl + p
 

@@ -1,622 +1,535 @@
 :root {
-    --background:#2e3440;
-    --red:#bf616a;
-    --green:#a3be8c;
-    --yellow:#ebcb8b;
-    --blue:#3da04265;
-    --pink:#b48ead;
-    --text:#88d09c;
-    --base1: #506a4c73;
-    --base2:#22914547;
-    --base3:#3e523b62;
+    --mauve: #ffffff;
+    --red: #d45c5c;
+    --yellow: #ffd67d;
+    --orange: #fab387;
+    --blue: #89b4fa;
+    --green: #ffffff;
+    --lavender: #ffffff;
+    --text: #ffffff;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a4a;
+    --surface0: #282936;
+    --base: rgb(17, 18, 19);
+    --crust: rgba(32, 32, 43, 0.423);
+    --widget-backgroun:rgba(24, 28, 31, 1);
+    --yasb-background: rgba(16, 22, 25, 1);
 }
 * {
-	font-size: 13px;
-	color: #ffffff;
-	font-weight: 500;
-	/* font-family: "SegoeUI Nerd Font"; */
-	font-family: "JetBrainsMono NFP";
-	margin: 0;
-	padding: 0;
+    font-size: 12px;
+    color: var(--text);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
 }
-.apps-widget .widget-container{
-	margin: 4px 0px 4px 0;
-	border-radius: 14px;
-	margin-right: 2px;
-}
-.apps-widget .label {
-	font-size: 14px;
-	padding: 0 2px;
-	font-family: "JetBrainsMono NFP";
-    color: #ffff;
-}
-.apps-widget .label:hover {
-	color: #13c8b0;
-}
-.clock-wiget .label{
-	font-weight: bold;
-} 
 .yasb-bar {
-    background-color: rgba(0, 0, 0, 0.061);
-	opacity: 0.0;
-	padding: 0;
-	margin: 0 0px;
+    padding: 0;
+    margin: 0;
+    background-color: var(--crust);
+}
+/* Global styles for ToolTip */
+.tooltip {
+    background-color: var(--base);
+    border: 1px solid var(--surface0);
+    border-radius: 4px;
+    color: var(--text);
+    padding: 4px 8px 5px 8px;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-top: 4px;
+}
+/* Global context menu style */
+.context-menu,
+.context-menu .menu-checkbox {
+    background-color: #202020;
+    border: none;
+    padding: 4px 0px;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.context-menu::right-arrow {
+    width: 8px;
+    height: 8px;
+    padding-right: 24px;
+}
+.context-menu::item,
+.context-menu .menu-checkbox {
+    background-color: transparent;
+    padding: 6px 12px;
+    margin: 2px 6px;
+    border-radius: 4px;
+    min-width: 100px;
+}
+.context-menu::item:selected,
+.context-menu .menu-checkbox:hover {
+    background-color: #313131;
+    color: #FFFFFF;
+}
+.context-menu::separator {
+    height: 1px;
+    background-color: #404040;
+    margin: 4px 8px;
+}
+.context-menu::item:disabled {
+    color: #666666;
+    background-color: transparent;
+}
+.context-menu .menu-checkbox .checkbox {
+    border: none;
+    padding: 8px 16px;
+    font-size: 12px;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: 'Segoe UI'
+}
+.context-menu .submenu::item:disabled {
+    margin: 0;
+    padding-left: 16px;
+}
+.context-menu .menu-checkbox .checkbox:unchecked {
+    color: #999
+}
+.context-menu .menu-checkbox .checkbox::indicator {
+    width: 12px;
+    height: 12px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+.context-menu .menu-checkbox .checkbox::indicator:unchecked {
+    background: #444444;
+    border-radius: 2px;
+}
+.context-menu .menu-checkbox .checkbox::indicator:checked {
+    background: #007acc;
+    border-radius: 2px;
+}
+.context-menu .menu-checkbox .checkbox:focus {
+    outline: none;
 }
 .widget {
-	padding: 0 8px;
-	margin: 0 0px;
+    padding: 0 3px;
+    margin: 0;
+}
+.icon {
+    font-size: 11px;
+    padding-right: 4px;
 }
 .widget .label {
-	padding-bottom: 2px;
-    /* font-weight: bold;
-	font-family: "AtkynsonMono NF"; */
+    padding: 0px 2px;
 }
-.widget .label:hover {
-    color: #fff;
+.apps-widget .widget-container,
+.komorebi-workspaces .widget-container,
+.komorebi-active-layout .widget-container {
+    border-radius: 12px;
+    border: 1px solid var(--surface1);
+    padding: 0 8px;
 }
-.container-left,
-.container-center,
-.container-right {
-	margin: 0;
-	padding: 0;
-}
+
 .komorebi-workspaces .widget-container {
-    margin-left: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 4px;
 }
-.komorebi-workspaces .widget-container {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-left: none
+
+.komorebi-workspaces {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 0 4px 0 0;
 }
+
 .komorebi-workspaces .offline-status {
-    color: var(--subtext1);
+    color: var(--surface2);
     font-size: 12px;
-    padding: 0 0px;
+    padding: 0 0 0 4px;
     font-weight: 600;
 }
+
 .komorebi-workspaces .ws-btn {
     border: none;
-    background-color: #797979;;
-    margin: 0 3px;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    color: #797979;
+    background-color: transparent;
+    margin: 0;
+    font-size: 12px;
+    /* This is the color for empty workspaces */
+    color: var(--text) !important;
+    height: 28px;
+    width: 18px;
 }
+
 .komorebi-workspaces .ws-btn:hover {
-    color: #bd53ff;
-    background-color: #bd53ff;
+    color: var(--overlay2) !important;
 }
-.komorebi-workspaces .ws-btn.populated:hover {
-    color: rgba(0, 0, 0, 0);
-    background-color: var(--overlay1);
-}
+
 .komorebi-workspaces .ws-btn.populated {
-    color: rgba(0, 0, 0, 0);
-    background-color: #DBBC7F;
+    color: transparent !important;
+    width: 10px !important;
+    height: 10px !important;
+
+    /* CHANGE: Using 50% ensures a perfect circle */
+    border-radius: 5px !important;
+
+    /* CHANGE: Using teal so it matches your other widgets */
+    background-color: var(--text) !important;
+    margin: 0 4px !important;
 }
+
 .komorebi-workspaces .ws-btn.active {
-    color: rgba(0, 0, 0, 0);
-    background-color: #c080bb;
-    width: 28px;
+    color: transparent !important;
+    background-color: var(--text) !important;
+    /* This pill shape is already rounded at 5px for its 10px height */
+    width: 36px;
     height: 10px;
+    margin: 0 4px;
+    border-radius: 5px;
 }
-.search-widget {
-    padding: 0 2px;
-}
-.search-widget .label {
-	padding: 0 7px 0 5px;
-}
-
-
-.active-window-widget .widget-container .label {
-    /* font-weight: bold; */
-    font-family: "AtkynsonMono NF";
-    padding-left: 3%;
+.grouped-widgets .container {
+    background-color: var(--widget-background);
+    margin: 2px 0px 2px 0px;
 }
 
-.clock-widget {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
+.cpu-widget {
+    width: 82px;
+    max-width: 82px;
+    min-width: 82px;
 }
-.clock-widget .widget-container {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
-}
-.clock-widget .widget-container .label {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
-}
-.clock-widget .widget-container .label.alt {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
-}
-.clock-widget .widget-container .icon {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
+.memory-widget .container,
+.cpu-widget .container  {
+
+    margin: 0px 0px 0px 0px;
 }
 
-/*CALENDAR AND VOLUME SLIDER*/
+/* Memory */
+.memory-widget {
+    width: 82px;
+    max-width: 82px;
+    min-width: 82px;
+}
+
+.cpu-widget, .memory-widget,
+.traffic-widget, .media-widget {
+    padding: 0px;
+}
+
+.clock-widget .label {
+    color: var(--green);
+}
 .calendar {
-    background-color: #2931362f;
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
-	border-radius: 15%;
-    /* color: #ffffff; */
-}
-.calendar .calendar-table{
-	border-radius: 15% ;
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
+    background-color: var(--crust)
 }
 .calendar .calendar-table,
 .calendar .calendar-table::item {
-    background-color: rgba(17, 17, 27, 0.049);	
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
+    background-color: rgba(17, 17, 27, 0);
+    color: rgba(162, 177, 196, 0.85);
+    font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
- 
-    /* color: #ffffff; */
+    border: none;
+    outline: none;
 }
 .calendar .calendar-table::item:selected {
-    color: #c8ffe2;	
-    border-radius: 50%;
-	border: 1px solid #ffffff;
-	background-color: #baffe154;	
-    font-weight: bold;
-	font-family: "AtkynsonMono NF";
-    
-
+    color: rgb(255, 255, 255);
+    background-color: var(--blue);
+    border-radius: 12px;
 }
 .calendar .day-label {
-    text-align: center;
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
-    /* color: #ffffff; */
+    margin-top: 20px;
 }
 .calendar .day-label,
 .calendar .month-label,
-.calendar .date-label {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
+.calendar .date-label,
+.calendar .week-label,
+.calendar .holiday-label {
+    font-family: 'Segoe UI';
     font-size: 16px;
+    color: #fff;
+    font-weight: 700;
     min-width: 180px;
     max-width: 180px;
-    /* color: #ffffff; */
 }
 .calendar .month-label {
-    /* font-weight: bold; */
-	font-family: "AtkynsonMono NF";
-    /* color: #ffffff; */
-	
+    font-weight: normal;
 }
-.calendar .date-label {	
-	font-family: "AtkynsonMono NF";
+.calendar .week-label,
+.calendar .holiday-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(162, 177, 196, 0.85);
+}
+.calendar .holiday-label {
+    color: var(--red);
+    font-weight: 700;
+}
+.calendar .date-label {
     font-size: 88px;
     font-weight: 900;
-    margin-top: -2.5%;
-    /* color: #ffffff; */
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+    margin-bottom: -10px;
 }
-
-.uptime {
-	font-size: 14px;
-	margin-bottom: 10px;
-	/* color: #ffffff; */
-	font-weight: 600;
-	font-family: "AtkynsonMono NF";
+.power-menu-widget .label {
+    color: var(--red);
+    font-size: 15px;
 }
-
-/*POWER MENU POPUP*/
-.uptime {
-	font-size: 14px;
-	margin-bottom: 10px;
-	color: rgba(191, 202, 219, 0.726);
-	font-weight: 600;
-	font-family: "Bahnschrift", Tahoma, Geneva, Verdana, sans-serif;
+.power-menu-popup {
+    background-color: transparent
 }
 .power-menu-popup .button {
-	padding: 0px;
-	width: 280px;
-	height: 250px;
-	border-radius: 20px;
-	background-color: var(--base3);
-	font-family: "Bahnschrift", Tahoma, Geneva, Verdana, sans-serif;
-	color: white;
-	border: 4px solid rgba(255, 255, 255, 0);
-
+    padding: 0;
+    width: 180px;
+    height: 230px;
+    border-radius: 20;
+    background-color: var(--crust);
+    color: var(--green);
+    border-left: 4px solid var(--overlay0);
+    border-right: 4px solid var(--overlay0);
+    border-top: 4px solid var(--overlay0);
+    border-bottom: 4px solid var(--overlay0);
+    margin: 0px;
 }
 .power-menu-popup .button.hover {
-	background-color: var(--base2);
-	border: 0px solid rgb(55, 56, 75);
-
+    border-left: 4px solid #00dcb7;
+    border-right: 4px solid #00dcb7;
+    border-top: 4px solid #00dcb7;
+    border-bottom: 4px solid #00dcb7;
+}
+.power-menu-popup .button.cancel.hover {
+    border-left: 4px solid #d45c5c;
+    border-right: 4px solid #d45c5c;
+    border-top: 4px solid #d45c5c;
+    border-bottom: 4px solid #d45c5c;
 }
 .power-menu-popup .button .label {
-	margin-bottom: 8px;
-	font-size: 20px;
-	font-weight: 600;
-	color: rgb(238, 238, 238);
-	font-family: "Bahnschrift", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--green)
 }
 .power-menu-popup .button .icon {
-	font-size: 100px;
-	padding-top: 52px;
-	color: var(--text);
-    align-content: center;
-
+    font-size: 64px;
+    padding-top: 32px;
+    color: var(--green)
 }
-.power-menu-popup .button.cancel .icon {
-	color: var(--red);
-
-}
+.power-menu-popup .button.cancel .icon,
 .power-menu-popup .button.cancel .label {
-	color: rgba(243, 139, 168, 0.95);
-
+    color: var(--red);
 }
-
-
-/* ICONS */
-.icon{
-	font-family: "Segoe Fluent Icons";
-    font-weight: 900;
-}
-.battery-widget .icon {
-    font-size: 18px;
-    margin-bottom: 1px;
-}
-.volume-widget .icon,
-.wifi-widget .icon {
-    font-family: "Segoe Fluent Icons";
-	/* color: #c5ddfe; */
-    font-size: 18px;
-	font-weight: bold;	
-    padding-right: 10%;
-}
-.volume-widget .label{
-	/* font-weight: bold;	 */
-    font-family: "AtkynsonMono Nerd Font";
-	/* color: #cacaca; */
-    /* padding-top: 1.2%; */
-}
-.cpu-widget .icon,
-.memory-widget .icon {
-	font-size: 12px;
-	color: #cba6f7;
-	/* margin: 0 4px 1px 0; */
-}
-.memory-widget .icon {
-	color: #a6c9f7;
-}
-
-.search-widget .icon {
-    font-size: 16px;
-    margin-bottom: 2px;
-}
-.notification-widget .icon {
-    font-size: 20px;
-    margin-right: 7px; 
-}
-
-
-.komorebi-control-widget .label {
+.uptime {
     font-size: 14px;
-    color: #cdd6f4;
+    margin-bottom: 10px;
+    color: var(--surface2);
     font-weight: 600;
 }
-.komorebi-control-menu {
-    background-color: rgba(17, 17, 27, 0.2);
+/* .audio-menu {
+    background-color: var(--surface0)
 }
-.komorebi-control-menu .button {
-    color: rgba(162, 177, 199, 0.4);
-    padding: 8px 16px;
-    font-size: 32px;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.04);
-}
-.komorebi-control-menu .button.active {
-    color: rgb(228, 228, 228);
-    background-color: rgba(255, 255, 255, 0.04);
-}
-.komorebi-control-menu .button:disabled,
-.komorebi-control-menu .button.active:disabled {
-    background-color: rgba(255, 255, 255, 0.01);
-    color: rgba(255, 255, 255, 0.2);
-}
-.komorebi-control-menu .footer .text {
+.volume-widget .icon {
     font-size: 12px;
-    color: #6c7086;
-}
-
-.taskbar-widget .app-container {
-    /* margin: 4px 2px; */
-    border-radius: 4px;
-    padding: 0 4px;
-    margin: 1px 1px 1px 1px;
-}
-.taskbar-widget .app-container.foreground {
-    background-color: #695a6e;
-
-}
-.taskbar-widget .app-container.flashing {
-    background-color: rgba(255, 106, 106, 0.63);
-}
-.taskbar-widget .app-container .app-title {
-    padding-left: 4px;
-}
-.volume-slider {
-    border: none;
+    color: var(--green);
+} */
+.volume-widget .icon {
+	color: #f3f3f3;
+    font-size: 15px;
+	margin:0 2px 0 0;
 }
 .audio-menu {
-    background-color:#2931362f; 
-    font-family: "AtkynsonMono NF";
+    background-color:rgba(17, 17, 27, 0.4); 
+    min-width: 300px;
 }
-.audio-container .device {
+/* System volume */
+.audio-menu .system-volume-container .volume-slider {
+    border: none;
+}
+/* Device list styles */
+.audio-menu .audio-container .device {
     background-color:transparent;
     border: none;
-    font-family: "AtkynsonMono NF";
     padding:6px 8px 6px 4px;
     margin: 2px 0;
     font-size: 12px;
     border-radius: 4px;
 }
-.audio-container .device.selected {
-    background-color: rgba(255, 255, 255, 0.085);
-    font-family: "AtkynsonMono NF";
+.audio-menu .audio-container .device.selected {
+    background-color: rgba(145, 255, 248, 0.65);
+    color: black
+   
 }
-.audio-container .device:hover {
-    background-color: rgba(255, 255, 255, 0.06);
-    font-family: "AtkynsonMono NF";
+.audio-menu .audio-container .device:hover {
+    background-color: rgba(145, 255, 248, 0.65);
+    color: black
 }
-.bluetooth {
-    font-family: "AtkynsonMono NF";
-    /* font-weight: bold; */
-    text-align: center;
-    margin: auto;
+/* Toggle button for application volumes (if is enabled) */
+.audio-menu .toggle-apps {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-height: 24px;
+    min-width: 24px;
+    border-radius: 4px;
 }
-.bluetooth-widget .icon {
-    font-size: 16px;
-    text-align: center;
-    /* margin-bottom: 2%;
-    padding-right: 1.5%;
-    padding-bottom: 2%; */
+.audio-menu .toggle-apps.expanded {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.audio-menu .toggle-apps:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    
+}
+/* Container for application volumes (if is enabled) */
+.audio-menu .apps-container {
+    padding: 8px;
+    margin-top:20px;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.062);
+    /* align-items: center; */
+    display: flex;
+    align-items: center;
+}
+.audio-menu .apps-container .app-volume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audio-menu .apps-container .app-volume .app-icon-container {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 6px;
+    margin-right: 8px;
 }
 
+.audio-menu .apps-container .app-volume .app-icon-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.language-widget .icon {
+    color: var(--green);
+}
+.language-menu {
+    background-color: var(--crust);
+    min-width: 300px;
+}
+.language-menu .header {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    padding: 12px;
+}
+.language-menu .footer {
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px;
+    margin-top: 2px;
+    color: #9399b2;
+}
+.language-menu .footer:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.language-menu .language-item {
+    padding: 6px 12px;
+    margin: 2px 4px;
+}
+.language-menu .language-item.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+.language-menu .language-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.language-menu .language-item.active:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+.language-menu .language-item .code {
+    font-weight: 900;
+    font-size: 14px;
+    min-width: 40px;
+    text-transform: uppercase;
+}
+.language-menu .language-item .icon {
+    font-size: 16px;
+    margin-right: 8px;
+    color: #fff;
+}
+.language-menu .language-item .name {
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+.language-menu .language-item .layout {
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+}
 .systray {
     background: transparent;
     border: none;
     margin: 0;
+    padding: 0;
 }
-
-.systray .unpinned-container {
-    background: rgb(63, 63, 71);
-    border-radius: 8px;
-}
-
-.systray .pinned-container {
-    background: transparent;
-}
-
-.systray .pinned-container[forceshow=true] {
-    background: red;
-}
-
 .systray .button {
     border-radius: 4px;
     padding: 2px 2px;
+    background-color: transparent;
 }
-
-.systray .button:hover {
-    background: #727272;
+.systray .button:hover,
+.systray .unpinned-visibility-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
-
-.systray .button[dragging=true] {
-    background: orange;
-    border-color: #FF8800;
-}
-
 .systray .unpinned-visibility-btn {
-    border-radius: 4px;
     height: 20px;
     width: 16px;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
 }
-
-.systray .unpinned-visibility-btn:checked {
-    background: rgba(90, 90, 103, 0.435);
-}
-
 .systray .unpinned-visibility-btn:hover {
-    border: 1px solid #AAAAAA;
     border-radius: 4px;
-    border-color: #AAAAAA;
 }
-
-/* 
-
-.weather-widget .icon {
-	font-size: 18px;
-	margin: -2.5% 0 0 2.5;
-    padding-right: 4%;
+.home-widget {
+    padding-right: 0;
 }
-.weather-widget .icon.sunnyDay {
-	color: rgb(255, 230, 0);
-	font-weight: 900;	
+.home-widget .icon {
+    color: var(--lavender);
+    font-size: 17px;
 }
-.weather-widget .label{
-	color: #ffffff;
-
-	font-family: "AtkynsonMono NF";
+.home-widget .icon:hover {
+    color: var(--text);
 }
-.weather-widget .icon.clearNight {
-	color: rgb(107, 189, 221);
-	font-size: 22px;
-	margin: 1px 2px 0px 0;
-
-    font-weight: 900;
-}
-Weather card style
-.weather-card {
-    background-color:  #2931362f;
-    font-weight: bold;
-	font-family: "AtkynsonMono NF";
-	font-weight: 900;
-}
-/* .weather-card-today {} 
-.weather-card-today .label {
-    font-size: 12px;
-
-	font-family: "AtkynsonMono NF";
-}
-.weather-card-today .label.location {
-    font-size: 24px;
-    font-weight: 700;
-    
-	font-family: "AtkynsonMono NF";
-}
-.weather-card-today .label.arert {
-    font-size: 12px;
-    background-color:  #2931362f;
-    
-    padding: 5px 0;
-   
-	font-family: "AtkynsonMono NF";
-}
-.weather-card-day {
-   
-	font-family: "AtkynsonMono NF";
-    background-color:   #2931362f;
-}
-.weather-card-day .label {
-    font-size: 12px;
-   
-	font-family: "AtkynsonMono NF";
-}
-*/
-.weather-widget {}
-.weather-widget.your_class {} /* If you are using class_name option */
-.weather-widget .widget-container {}
-.weather-widget .label {
-    font-family: "AtkynsonMono NF";
-}
-.weather-widget .label.alt {
-    font-family: "AtkynsonMono NF";
-}
-.weather-widget .icon {
-    padding-right: .5em;
-}
-
-/* Individual weather icons */
-.weather-widget .icon.sunnyDay {}
-.weather-widget .icon.clearNight {}
-.weather-widget .icon.cloudyDay {}
-.weather-widget .icon.cloudyNight {}
-.weather-widget .icon.rainyDay {}
-.weather-widget .icon.rainyNight {}
-.weather-widget .icon.snowyIcyDay {}
-.weather-widget .icon.snowyIcyNight {}
-.weather-widget .icon.blizzardDay {}
-.weather-widget .icon.blizzardNight {}
-.weather-widget .icon.foggyDay {}
-.weather-widget .icon.foggyNight {}
-.weather-widget .icon.thunderstormDay {}
-.weather-widget .icon.thunderstormNight {}
-.weather-widget .icon.default {}
-
-/* Weather card style */
-.weather-card {
-    background-color: rgba(17, 17, 27, 0.5);
-}
-.weather-card-today {
-    font-family: "AtkynsonMono NF";
-    border: 1px solid #282936;
+.home-menu {
+    background-color: var(--crust);
     border-radius: 8px;
-    background-color:  rgba(17, 17, 27, 0.2);
 }
-.weather-card-today .label {
-    font-family: "AtkynsonMono NF";
+.home-menu .menu-item {
+    padding: 8px 48px 9px 16px;
     font-size: 12px;
+    font-family: 'Segoe UI';
+    color: var(--text);
+    font-weight: 600;
 }
-.weather-card-today .label.location {
-    font-size: 24px;
-    font-weight: 700;
+.home-menu .menu-item:hover {
+    background-color: rgba(128, 130, 158, 0.15);
+    color: #fff;
 }
-.weather-card-today .label.alert {
-    font-size: 12px;
-    font-weight: 700;
-    background-color: rgba(247, 199, 42, 0.05);
-    border: 1px solid rgba(247, 209, 42, 0.1);
-    color: rgba(196, 181, 162, 0.85);
-    border-radius: 6px;
-    padding: 5px 0;
+.home-menu .separator {
+    max-height: 1px;
+    background-color: rgba(128, 130, 158, 0.3);
 }
-.weather-card-day {
-    border: 1px solid #45475a;
-    border-radius: 8px;
-    background-color:  rgba(17, 17, 27, 0.2);
-}
-
-.weather-card-day.active {
-    background-color: rgba(40, 40, 60, 0.6);
-    border: 1px solid rgba(50, 50, 75, 1);
-}
-
-.weather-card-day:hover {
-    background-color: rgba(40, 40, 60, 0.6);
-}
-
-.weather-card-day .label {
-    font-size: 12px;
-}
-
-.weather-card .hourly-container {
-    border: 1px solid #282936;
-    background-color: #3c5fa03a;
-    border-radius: 8px;
-    min-height: 150px;
-}
-
-.weather-card .hourly-data {
-    font-family: "AtkynsonMono NF";
-    /* color: cyan;*/ /* <- Font color */
-    background-color: #FAE93F; /* <- Curve color */
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.media-widget {
-    padding: 0;
-    margin: 0;
-}
-.media-widget .label {
-    /* color: #bac2db; */
-    /* background-color: rgba(24, 24, 37, 0.7); */
-    padding: 0px;
-    padding-right: 4px;
-    font-size: 12px;
-}
-.media-widget .btn {
-    color: #ffffff;
-	padding: 0 5px;
-	margin: 4px 2px;
-    font-size: 12px;
-    font-family: Segoe Fluent Icons;
-    font-weight: 300;
-}
-.media-widget .btn:hover {
-    /* color: #babfd3; */
-}
-.media-widget .btn.play {
-    font-size: 12px;
-}
-.media-widget .btn.disabled:hover,
-.media-widget .btn.disabled {
-    /* color: #4e525c; */
-    /* font-size: 12px; */
-    /* background-color: rgba(0, 0, 0, 0); */
+.notification-widget .icon.new-notification {
+    color: var(--blue);
 }
 .media-menu {
-    min-width: 420px;
-    max-width: 420px;
-    background-color: rgb(27, 18, 51);
+    min-width: 360px;
+    max-width: 360px;
+    background-color: var(--crust)
 }
 .media-menu .title,
 .media-menu .artist,
@@ -624,7 +537,7 @@ Weather card style
     font-size: 14px;
     font-weight: 600;
     margin-left: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI'
 }
 .media-menu .artist {
     font-size: 13px;
@@ -639,11 +552,8 @@ Weather card style
     border-radius: 3px;
     background-color: #bac2de;
     padding: 2px 4px;
-
 }
-/* The source class name is the same as what you see in the media widget; just replace spaces with dashes and convert it to lowercase. 
-Example: "Windows Media" becomes "windows-media" */
-.media-menu .source.zen {
+.media-menu .source.firefox {
     background-color: #ff583b;
     color: #ffffff;
 }
@@ -659,7 +569,6 @@ Example: "Windows Media" becomes "windows-media" */
     background-color: #0078d4;
     color: #ffffff;
 }
-
 .media-menu .btn {
     font-family: "Segoe Fluent Icons";
     font-size: 14px;
@@ -685,19 +594,18 @@ Example: "Windows Media" becomes "windows-media" */
 .media-menu .btn.disabled:hover,
 .media-menu .btn.disabled {
     color: #4e525c;
-    background-color: rgba(0, 0, 0, 0.594);
+    background-color: rgba(0, 0, 0, 0);
 }
-
 .media-menu .playback-time {
     font-size: 13px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI';
     color: #7f849c;
-    margin-top: 20px;
+    margin-top: 0px;
     min-width: 100px;
 }
 .media-menu .progress-slider {
-    height: 10px;
-    margin: 5px 4px;
+    height: 20px;
+    margin: 0 4px 5px 4px;
     border-radius: 3px;
 }
 .media-menu .progress-slider::groove {
@@ -714,7 +622,152 @@ Example: "Windows Media" becomes "windows-media" */
     background: rgba(255, 255, 255, 0.2);
 }
 .media-menu .progress-slider::sub-page {
-    background: white;
+    background: var(--blue);
     border-radius: 3px;
     height: 4px;
 }
+.weather-widget .icon {
+    font-size: 14px;
+    color: var(--yellow);
+}
+.weather-card {
+    background-color: var(--crust);
+}
+.weather-card-today .label {
+    font-size: 13px;
+    font-weight: 600;
+}
+.weather-card-today .label.location {
+    font-size: 32px;
+    font-weight: 600;
+}
+.weather-card-today .label.alert {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: rgba(247, 175, 42, 0.05);
+    border: 1px solid rgba(247, 209, 42, 0.1);
+    color: rgba(196, 181, 162, 0.85);
+    border-radius: 6px;
+    padding: 5px 0;
+}
+.weather-card-day {
+    border-radius: 6px;
+    background-color: var(--crust)
+}
+.weather-card-day .label {
+    font-size: 13px;
+
+}
+.weather-card-day.active {
+    background-color: rgba(40, 40, 60, 0.6);
+    border: 1px solid rgba(50, 50, 75, 1);
+}
+.weather-card-day:hover {
+    background-color: rgba(40, 40, 60, 0.6);
+}
+.weather-card .hourly-container {
+    border: none;
+    background-color: rgba(40, 40, 60, 0.0);
+    min-height: 150px;
+}
+.weather-card .hourly-data {
+    background-color: #FAE93F;
+    font-size: 11px;
+    font-weight: bold;
+}
+.bluetooth {
+    font-family: "AtkynsonMono NF";
+    /* font-weight: bold; */
+    text-align: center;
+    margin: auto;
+}
+.bluetooth-widget .icon {
+    font-size: 16px;
+    text-align: center;
+    /* margin-bottom: 2%;
+    padding-right: 1.5%;
+    padding-bottom: 2%; */
+}
+.komorebi-control-widget .label {
+    font-size: 14px;
+    color: #cdd6f4;
+    font-weight: 600;
+}
+.komorebi-control-menu {
+    background-color: rgba(17, 17, 27, 0.2);
+}
+.komorebi-control-menu .button {
+    color: rgba(162, 177, 199, 0.4);
+    padding: 8px 16px;
+    font-size: 32px;
+    border-radius: 8px;
+    background-color:var(--overlay1);
+}
+.komorebi-control-menu .button.active {
+    color: rgb(228, 228, 228);
+    background-color: var(--overlay0);
+}
+.komorebi-control-menu .button:disabled,
+.komorebi-control-menu .button.active:disabled {
+    background-color: var(--overlay0);
+    color: rgba(255, 255, 255, 0.2);
+}
+.komorebi-control-menu .footer .text {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.window-controls-widget {
+    padding: 0;
+    margin: 0;
+}
+.window-controls-widget .btn {
+    font-family: "JetBrainsMono NFP";
+    font-size: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+.window-controls-widget .btn.minimize {
+    color: #FFBD2E;
+}
+.window-controls-widget .btn.minimize:hover {
+    color: #ffc853;
+}
+.window-controls-widget .btn.maximize {
+    color: #28C840;
+}
+.window-controls-widget .btn.maximize:hover {
+    color: #60ff78;
+}
+.window-controls-widget .btn.restore {
+    color: #28C840;
+}
+.window-controls-widget .btn.restore:hover {
+    color: #60ff78;
+}
+.window-controls-widget .btn.close {
+    color: #FF5F57;
+}
+.window-controls-widget .btn.close:hover {
+    color: #ff8a84;
+}
+.window-controls-widget .app-name {
+    font-family: "Segoe UI";
+    font-size: 12px;
+    padding-left: 4px;  
+    font-weight: 600;    
+}
+
+.memory-widget .widget-container{
+    margin-left: 25%;
+}
+.cpu-widget .widget-container{
+    margin-left: 5%;
+}
+.cpu-widget .widget-container{
+    padding-right: 30%;
+}
+
