@@ -2863,3 +2863,979 @@ expected <block end>, but found ']'
 2026-03-27 15:57:01,152 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
 2026-03-27 15:57:33,980 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
 2026-03-27 15:57:49,804 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-27 16:51:00,954 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 16:51:00.951749
+2026-03-27 17:51:00,939 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 17:51:00.939241
+2026-03-27 18:51:02,013 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 18:51:02.012477
+2026-03-27 19:51:02,010 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 19:51:02.009378
+2026-03-27 20:51:01,988 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-27 20:51:01.988136
+2026-03-28 05:58:50,921 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-03-28 05:58:50,922 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-03-28 05:59:01,218 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 05:59:01.218461
+2026-03-28 06:00:04,162 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 06:00:04,163 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 06:00:07,174 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-28 06:00:07,322 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-28 06:58:50,867 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 06:58:50.867091
+2026-03-28 07:58:50,866 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 07:58:50.865921
+2026-03-28 16:35:32,915 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-03-28 16:35:32,924 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-03-28 16:35:43,118 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 16:35:43.118464
+2026-03-28 16:51:44,031 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-28 16:51:44,032 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-28 16:51:47,053 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-28 16:51:47,181 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-28 17:35:32,881 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-28 17:35:32.881068
+2026-03-29 07:15:44,925 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-03-29 07:15:44,927 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-03-29 07:15:55,173 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 07:15:55.173811
+2026-03-29 08:15:44,698 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 08:15:44.698154
+2026-03-29 09:15:44,663 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 09:15:44.663423
+2026-03-29 09:50:06,255 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-29 09:50:06,255 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-29 09:50:09,256 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-29 09:50:09,612 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-aa3afaa0-2a1e-11f1-ad04-a4b1c1adca22
+2026-03-29 09:56:44,320 [ERROR] [MainThread] [root/bar_helper.py:987]: Failed to save screenshot
+2026-03-29 09:59:16,193 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-29 10:15:44,668 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 10:15:44.668321
+2026-03-29 10:18:32,995 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-29 10:18:36,643 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 20583850
+2026-03-29 10:18:36,813 [INFO] [MainThread] [root/bar_helper.py:561]: AppBarManager need to re-register 1 bar
+2026-03-29 10:18:37,279 [INFO] [MainThread] [root/bar_helper.py:570]: Re-registered AppBar for primary-bar_C49RG9x_16ce6f50 (space reservation + fullscreen)
+2026-03-29 10:26:50,834 [INFO] [MainThread] [root/controller.py:43]: Exiting Application from context menu...
+2026-03-29 10:26:50,939 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-03-29 10:26:50,940 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-03-29 10:26:51,304 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-29 10:26:51,316 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-29 10:26:51,322 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-29 10:26:51,336 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 20583850
+2026-03-29 10:26:51,336 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 20583850
+2026-03-29 10:26:51,336 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 20583850
+2026-03-29 10:28:08,680 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-29 10:28:08,681 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-29 10:28:08,681 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-29 10:28:08,686 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-29 10:28:09,057 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-29 10:28:10,418 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-29 10:28:10,421 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-29 10:28:10,422 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-29 10:28:10,423 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-29 10:28:10,422 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-e4c8058d-2b83-11f1-833e-a4b1c1adca22
+2026-03-29 10:28:10,504 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-29 10:28:10,539 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-29 10:28:10,541 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-29 10:28:10,725 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 10:28:10.725625
+2026-03-29 10:28:10,754 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 1510866
+2026-03-29 10:28:10,754 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-29 10:28:10,760 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-03-29 10:28:10,760 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-29 10:28:30,883 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e4c8058d-2b83-11f1-833e-a4b1c1adca22
+2026-03-29 10:35:15,408 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-03-29 10:35:15,408 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-03-29 10:35:18,413 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-e4c8058d-2b83-11f1-833e-a4b1c1adca22
+2026-03-29 10:35:18,505 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e4c8058d-2b83-11f1-833e-a4b1c1adca22
+2026-03-29 11:51:02,859 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-03-29 11:51:02,920 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-03-29 11:51:13,109 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 11:51:13.109407
+2026-03-29 12:51:02,933 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 12:51:02.931721
+2026-03-29 13:51:02,948 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 13:51:02.947386
+2026-03-29 14:51:02,941 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 14:51:02.940219
+2026-03-29 15:51:02,920 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 15:51:02.920017
+2026-03-29 16:51:02,916 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 16:51:02.916181
+2026-03-29 17:51:03,007 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 17:51:03.007366
+2026-03-29 18:22:27,274 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-03-29 18:22:27,336 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-03-29 18:51:02,920 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 18:51:02.920348
+2026-03-29 19:51:02,935 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 19:51:02.935108
+2026-03-29 20:51:02,932 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-29 20:51:02.932544
+2026-03-30 00:29:38,192 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-30 00:29:38.192355
+2026-03-30 00:29:47,032 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-03-30 00:29:47,101 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-03-30 00:29:47,124 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-30 00:29:47,279 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 1510866
+2026-03-30 00:29:47,279 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 1510866
+2026-03-30 00:29:47,279 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 1510866
+2026-03-30 00:31:19,711 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-30 00:31:19,716 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-30 00:31:19,735 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-30 00:31:19,753 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-30 00:31:25,970 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-03-30 00:31:28,295 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-03-30 00:31:28,297 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-03-30 00:31:28,299 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-b377370a-2bf9-11f1-b5e9-a4b1c1adca22
+2026-03-30 00:31:28,299 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-03-30 00:31:28,299 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-03-30 00:31:28,484 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-03-30 00:31:28,719 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-03-30 00:31:28,779 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-03-30 00:31:29,016 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-30 00:31:29.016635
+2026-03-30 00:31:29,062 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 132506
+2026-03-30 00:31:29,106 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-03-30 00:31:29,111 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49261
+2026-03-30 00:31:29,111 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-03-30 00:32:46,430 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-03-30 00:32:46,431 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-03-30 00:32:46,431 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-03-30 00:32:46,432 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-03-30 00:32:46,433 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-03-30 17:43:23,680 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-03-30 17:43:23,681 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-03-30 17:43:33,871 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-30 17:43:33.871246
+2026-03-30 17:46:24,225 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-b377370a-2bf9-11f1-b5e9-a4b1c1adca22
+2026-03-30 18:43:23,790 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-30 18:43:23.790749
+2026-03-30 19:43:23,783 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-30 19:43:23.783798
+2026-03-30 20:43:23,777 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-03-30 20:43:23.777490
+2026-04-01 17:32:13,780 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-01 17:32:13,780 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-01 17:32:23,941 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-01 17:32:23.941062
+2026-04-01 17:37:34,705 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-01 17:37:34,706 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-01 17:37:37,709 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-b377370a-2bf9-11f1-b5e9-a4b1c1adca22
+2026-04-01 17:37:37,802 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-b377370a-2bf9-11f1-b5e9-a4b1c1adca22
+2026-04-01 18:32:13,818 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-01 18:32:13.818156
+2026-04-01 19:32:13,831 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-01 19:32:13.830731
+2026-04-01 20:32:13,840 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-01 20:32:13.840869
+2026-04-03 14:00:04,138 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-03 14:00:04,138 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-03 14:00:14,488 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 14:00:14.488913
+2026-04-03 15:00:02,986 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 15:00:02.986197
+2026-04-03 16:00:03,007 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 16:00:03.007748
+2026-04-03 17:00:04,151 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 17:00:04.151666
+2026-04-03 18:00:03,264 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 18:00:03.264668
+2026-04-03 19:00:03,067 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 19:00:03.067865
+2026-04-03 20:00:03,488 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 20:00:03.488501
+2026-04-03 21:00:03,721 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 21:00:03.721778
+2026-04-03 22:00:03,264 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 22:00:03.264712
+2026-04-03 23:00:05,576 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-03 23:00:05.576476
+2026-04-04 07:21:25,881 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-04 07:21:25,881 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-04 07:21:36,052 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 07:21:36.052027
+2026-04-04 08:21:20,340 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 08:21:20.340926
+2026-04-04 09:21:20,363 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 09:21:20.363004
+2026-04-04 10:21:20,348 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 10:21:20.348764
+2026-04-04 11:21:20,340 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 11:21:20.340840
+2026-04-04 12:21:20,346 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 12:21:20.346003
+2026-04-04 13:21:20,366 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 13:21:20.366196
+2026-04-04 14:21:20,348 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 14:21:20.347993
+2026-04-04 15:21:20,325 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 15:21:20.325159
+2026-04-04 16:21:20,337 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 16:21:20.337194
+2026-04-04 17:21:20,355 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 17:21:20.355318
+2026-04-04 18:21:20,324 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 18:21:20.324739
+2026-04-04 19:21:20,326 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 19:21:20.326752
+2026-04-04 22:48:06,143 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-04 22:48:06,144 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-04 22:48:16,352 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 22:48:16.352524
+2026-04-04 23:48:04,015 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-04 23:48:04.015769
+2026-04-05 08:19:13,978 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-05 08:19:13,978 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-05 08:19:24,155 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 08:19:24.155512
+2026-04-05 09:19:11,943 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 09:19:11.943481
+2026-04-05 10:19:11,915 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 10:19:11.914937
+2026-04-05 11:19:11,920 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 11:19:11.920904
+2026-04-05 12:19:11,920 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 12:19:11.920655
+2026-04-05 13:19:11,916 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 13:19:11.916890
+2026-04-05 14:19:11,923 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 14:19:11.923376
+2026-04-05 15:19:11,910 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 15:19:11.910305
+2026-04-05 16:19:11,926 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 16:19:11.926266
+2026-04-05 17:19:11,914 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 17:19:11.914488
+2026-04-05 18:19:11,932 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 18:19:11.932802
+2026-04-05 19:19:11,937 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 19:19:11.936841
+2026-04-05 20:19:12,113 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 20:19:12.113228
+2026-04-05 21:19:11,929 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-05 21:19:11.929552
+2026-04-06 17:16:13,135 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-06 17:16:13,135 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-06 17:16:23,589 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-06 17:16:23.589506
+2026-04-06 18:16:10,941 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-06 18:16:10.941039
+2026-04-06 19:16:10,883 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-06 19:16:10.883667
+2026-04-06 20:16:10,928 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-06 20:16:10.928405
+2026-04-08 18:49:11,168 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-08 18:49:11,169 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-08 18:49:21,449 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-08 18:49:21.449806
+2026-04-08 19:49:10,005 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-08 19:49:10.005519
+2026-04-08 20:49:09,990 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-08 20:49:09.990149
+2026-04-09 16:57:48,141 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-09 16:57:48,141 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-09 16:57:58,343 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 16:57:58.343464
+2026-04-09 17:27:46,254 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-09 17:27:46,288 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-09 17:27:46,336 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-09 17:27:46,355 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 132506
+2026-04-09 17:27:46,355 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 132506
+2026-04-09 17:27:46,356 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 132506
+2026-04-09 17:29:43,269 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 17:29:43,291 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 17:29:43,293 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 17:29:43,316 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-09 17:29:51,746 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-09 17:29:53,541 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-09 17:29:53,545 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 17:29:53,545 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-09 17:29:53,546 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 17:29:53,546 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-a1297aaa-3463-11f1-9ca6-a4b1c1adca22
+2026-04-09 17:29:53,673 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 17:29:53,835 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-09 17:29:53,846 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-09 17:29:54,066 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 66918
+2026-04-09 17:29:54,069 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-09 17:29:54,073 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49287
+2026-04-09 17:29:54,103 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-09 17:29:54,104 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 17:29:54.104651
+2026-04-09 17:30:51,260 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 17:30:51,260 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 17:30:51,260 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 17:30:51,262 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-09 17:30:51,262 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-09 17:33:44,250 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-09 17:33:44,354 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-09 17:33:44,354 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-09 17:33:44,408 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-09 17:33:44,412 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-09 17:33:44,413 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-09 17:33:44,425 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 66918
+2026-04-09 17:33:44,425 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 66918
+2026-04-09 17:33:44,426 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 66918
+2026-04-09 17:33:44,766 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-09 17:33:44,767 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-09 17:33:44,767 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-09 17:33:44,767 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-09 17:33:45,163 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-09 17:33:45,695 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-09 17:33:45,699 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-09 17:33:45,700 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-09 17:33:45,700 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-09 17:33:45,700 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-09 17:33:45,798 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-09 17:33:45,811 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-09 17:33:45,817 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-09 17:33:46,015 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 54135182
+2026-04-09 17:33:46,018 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-09 17:33:46,021 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49287
+2026-04-09 17:33:46,021 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-09 17:33:46,029 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 17:33:46.029544
+2026-04-09 17:34:16,224 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-09 18:33:45,259 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 18:33:45.259794
+2026-04-09 19:33:45,299 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 19:33:45.299531
+2026-04-09 20:33:45,271 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 20:33:45.271537
+2026-04-09 21:33:45,262 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 21:33:45.262412
+2026-04-09 22:33:45,276 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 22:33:45.275961
+2026-04-09 23:33:45,250 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-09 23:33:45.250903
+2026-04-10 00:33:45,268 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 00:33:45.268634
+2026-04-10 04:50:19,913 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-10 04:50:19,914 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-10 04:50:30,080 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 04:50:30.079996
+2026-04-10 05:50:19,695 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 05:50:19.695509
+2026-04-10 06:50:19,665 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 06:50:19.665188
+2026-04-10 07:50:19,698 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 07:50:19.698242
+2026-04-10 08:50:19,719 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 08:50:19.719876
+2026-04-10 09:50:19,679 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 09:50:19.679243
+2026-04-10 16:31:06,657 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-10 16:31:06,658 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-10 16:31:16,823 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 16:31:16.823472
+2026-04-10 16:32:05,467 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-10 16:32:05,467 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-10 16:32:08,479 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-10 16:32:08,554 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-10 17:31:06,774 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 17:31:06.774221
+2026-04-10 18:31:06,768 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-10 18:31:06.768165
+2026-04-11 10:27:14,932 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-11 10:27:14,933 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-11 10:27:25,104 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 10:27:25.104878
+2026-04-11 11:27:11,772 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 11:27:11.772892
+2026-04-11 11:28:29,317 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 54135182
+2026-04-11 11:28:29,711 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49287
+2026-04-11 11:28:29,711 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-11 12:27:11,722 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 12:27:11.722220
+2026-04-11 13:27:11,731 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 13:27:11.731117
+2026-04-11 14:27:11,730 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 14:27:11.730649
+2026-04-11 15:27:11,748 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 15:27:11.747977
+2026-04-11 16:27:12,133 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 16:27:12.133293
+2026-04-11 17:27:11,752 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 17:27:11.752236
+2026-04-11 17:32:27,410 [INFO] [MainThread] [root/bar.py:149]: Screen geometry changed. Updating position for bar primary-bar on screen C49RG9x
+2026-04-11 17:43:49,964 [INFO] [MainThread] [root/bar.py:149]: Screen geometry changed. Updating position for bar primary-bar on screen C49RG9x
+2026-04-11 18:27:11,724 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 18:27:11.724394
+2026-04-11 19:27:12,127 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 19:27:12.127188
+2026-04-11 19:35:12,228 [INFO] [MainThread] [root/bar.py:149]: Screen geometry changed. Updating position for bar primary-bar on screen C49RG9x
+2026-04-11 19:35:24,045 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-11 19:35:24,046 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-11 19:35:27,051 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-11 19:35:27,134 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-11 20:27:12,160 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 20:27:12.159972
+2026-04-11 21:27:11,735 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 21:27:11.735175
+2026-04-11 22:27:11,750 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-11 22:27:11.750487
+2026-04-12 11:00:27,097 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 11:00:27.097452
+2026-04-12 12:00:23,272 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 12:00:23.272453
+2026-04-12 13:00:23,282 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 13:00:23.282607
+2026-04-12 13:27:17,982 [WARNING] [Dummy-6] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-12 13:27:17,982 [INFO] [Dummy-6] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-12 13:27:20,993 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-12 14:00:23,657 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 14:00:23.657743
+2026-04-12 15:00:23,812 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 15:00:23.812142
+2026-04-12 15:31:42,918 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-2b897565-3464-11f1-8b02-a4b1c1adca22
+2026-04-12 16:00:23,290 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 16:00:23.290020
+2026-04-12 16:24:33,165 [DEBUG] [Thread-4] [root/watcher.py:84]: Stylesheet modified: c:\users\benpb\.config\yasb\styles.css
+2026-04-12 16:24:33,245 [DEBUG] [Thread-4] [root/watcher.py:90]: Config file modified: c:\users\benpb\.config\yasb\config.yaml
+2026-04-12 17:00:23,466 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 17:00:23.466771
+2026-04-12 18:00:23,274 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 18:00:23.274120
+2026-04-12 19:00:23,530 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 19:00:23.530531
+2026-04-12 20:00:23,275 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 20:00:23.275073
+2026-04-12 21:00:23,285 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-12 21:00:23.285112
+2026-04-13 19:14:57,978 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-13 19:14:57,979 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-13 19:15:08,335 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-13 19:15:08.335621
+2026-04-13 20:14:58,281 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-13 20:14:58.280951
+2026-04-13 21:14:58,043 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-13 21:14:58.043469
+2026-04-16 18:39:01,513 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-16 18:39:01,513 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-16 18:39:11,874 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 18:39:11.874633
+2026-04-16 19:38:57,939 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 19:38:57.939026
+2026-04-16 20:38:57,704 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-16 20:38:57.704621
+2026-04-17 06:37:06,098 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-17 06:37:06,098 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-17 06:37:16,262 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 06:37:16.262211
+2026-04-17 07:37:03,388 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 07:37:03.388359
+2026-04-17 08:37:03,189 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 08:37:03.189212
+2026-04-17 08:52:52,524 [INFO] [MainThread] [root/bar.py:149]: Screen geometry changed. Updating position for bar primary-bar on screen C49RG9x
+2026-04-17 09:37:03,187 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 09:37:03.186998
+2026-04-17 10:37:03,177 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 10:37:03.177252
+2026-04-17 11:37:03,179 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 11:37:03.179940
+2026-04-17 12:37:03,387 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 12:37:03.387059
+2026-04-17 13:37:03,169 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 13:37:03.169937
+2026-04-17 14:37:03,412 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 14:37:03.412201
+2026-04-17 15:33:53,258 [INFO] [MainThread] [root/bar.py:149]: Screen geometry changed. Updating position for bar primary-bar on screen C49RG9x
+2026-04-17 15:37:03,196 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 15:37:03.196034
+2026-04-17 16:37:03,189 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-17 16:37:03.189337
+2026-04-18 06:50:49,997 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-18 06:50:49,997 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-18 06:51:00,259 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 06:51:00.259635
+2026-04-18 07:50:49,863 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 07:50:49.863438
+2026-04-18 08:50:49,660 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 08:50:49.660088
+2026-04-18 09:50:49,866 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 09:50:49.866558
+2026-04-18 13:19:36,825 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-18 13:19:36,826 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-18 13:19:47,415 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 13:19:47.415673
+2026-04-18 14:19:37,057 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 14:19:37.056946
+2026-04-18 15:19:36,994 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 15:19:36.994509
+2026-04-18 16:19:36,905 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 16:19:36.904640
+2026-04-18 17:19:37,030 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 17:19:37.028715
+2026-04-18 18:19:37,120 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 18:19:37.120798
+2026-04-18 19:19:36,865 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 19:19:36.865396
+2026-04-18 20:19:36,878 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-18 20:19:36.877741
+2026-04-19 00:29:32,167 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-19 00:29:32,167 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-19 00:29:42,340 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 00:29:42.340936
+2026-04-19 01:29:31,915 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-19 01:29:31,915 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-19 01:29:42,112 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 01:29:42.112762
+2026-04-19 01:30:24,281 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-19 01:30:25,376 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-19 01:30:25,379 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-19 01:30:25,389 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 54135182
+2026-04-19 01:30:25,389 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 54135182
+2026-04-19 01:30:25,389 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 54135182
+2026-04-19 10:41:12,028 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-19 10:41:12,035 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-19 10:41:12,041 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-19 10:41:12,058 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-19 10:41:17,860 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-19 10:41:23,361 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-19 10:41:23,365 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-19 10:41:23,366 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-3816512d-3c06-11f1-bf2f-a4b1c1adca22
+2026-04-19 10:41:23,366 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-19 10:41:23,366 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-19 10:41:23,483 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-19 10:41:23,910 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-19 10:41:23,925 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-19 10:41:24,081 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 10:41:24.081120
+2026-04-19 10:41:24,130 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 132498
+2026-04-19 10:41:24,172 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-19 10:41:24,176 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-04-19 10:41:24,176 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-19 10:42:04,030 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-19 10:42:04,030 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-19 10:42:04,031 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-19 10:42:04,031 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-19 10:42:04,031 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-19 10:52:15,546 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-19 10:52:15,659 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-19 10:52:15,659 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-19 10:52:15,703 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-19 10:52:15,705 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-19 10:52:15,707 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-19 10:52:15,708 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 132498
+2026-04-19 10:52:15,708 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 132498
+2026-04-19 10:52:15,708 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 132498
+2026-04-19 10:52:16,036 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-19 10:52:16,036 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-19 10:52:16,037 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-19 10:52:16,037 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-19 10:52:16,331 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-19 10:52:16,840 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-19 10:52:16,844 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-19 10:52:16,844 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-19 10:52:16,845 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-19 10:52:16,845 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-bd974951-3c07-11f1-bcd5-a4b1c1adca22
+2026-04-19 10:52:16,897 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-19 10:52:16,908 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-19 10:52:16,909 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-19 10:52:17,104 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 10:52:17.104382
+2026-04-19 10:52:17,131 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 1181140
+2026-04-19 10:52:17,133 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-19 10:52:17,135 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-04-19 10:52:17,135 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-19 12:19:28,688 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-19 12:19:28,688 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-19 12:19:38,871 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 12:19:38.871393
+2026-04-19 12:23:02,434 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-bd974951-3c07-11f1-bcd5-a4b1c1adca22
+2026-04-19 13:19:28,788 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 13:19:28.788324
+2026-04-19 14:19:28,828 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 14:19:28.828690
+2026-04-19 15:19:28,838 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 15:19:28.838695
+2026-04-19 16:19:28,893 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 16:19:28.893149
+2026-04-19 17:19:28,830 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 17:19:28.830866
+2026-04-19 18:19:28,798 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 18:19:28.798448
+2026-04-19 19:19:28,886 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 19:19:28.886899
+2026-04-19 20:19:28,838 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-19 20:19:28.838182
+2026-04-20 18:00:17,763 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-20 18:00:17,764 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-20 18:00:27,912 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-20 18:00:27.912057
+2026-04-20 19:00:13,753 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-20 19:00:13.753796
+2026-04-20 20:00:13,705 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-20 20:00:13.705399
+2026-04-20 21:00:13,736 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-20 21:00:13.736333
+2026-04-21 17:12:01,530 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-21 17:12:01,530 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-21 17:12:11,684 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-21 17:12:11.684405
+2026-04-21 18:11:57,684 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-21 18:11:57.684450
+2026-04-21 19:11:57,709 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-21 19:11:57.708874
+2026-04-21 20:11:57,795 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-21 20:11:57.794945
+2026-04-21 21:11:57,699 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-21 21:11:57.699290
+2026-04-22 16:55:07,995 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-22 16:55:07,995 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-22 16:55:18,559 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-22 16:55:18.559207
+2026-04-22 17:55:07,696 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-22 17:55:07.696357
+2026-04-23 19:08:46,409 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-23 19:08:46,409 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-23 19:08:56,758 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-23 19:08:56.758809
+2026-04-23 20:08:44,976 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-23 20:08:44.976407
+2026-04-23 21:08:44,978 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-23 21:08:44.978055
+2026-04-24 10:07:36,234 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-24 10:07:36,234 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-24 10:07:46,439 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 10:07:46.439107
+2026-04-24 13:59:32,975 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-24 13:59:32,975 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-24 13:59:43,177 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 13:59:43.177254
+2026-04-24 14:59:32,676 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 14:59:32.676545
+2026-04-24 15:59:32,689 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 15:59:32.689377
+2026-04-24 16:59:32,714 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 16:59:32.714184
+2026-04-24 17:59:32,704 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 17:59:32.703589
+2026-04-24 18:59:32,719 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 18:59:32.719282
+2026-04-24 19:59:32,675 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 19:59:32.675556
+2026-04-24 20:59:32,709 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 20:59:32.708955
+2026-04-24 21:59:32,735 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-24 21:59:32.735249
+2026-04-25 08:02:00,310 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 08:02:00.309837
+2026-04-25 09:01:55,665 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 09:01:55.665506
+2026-04-25 10:01:55,684 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 10:01:55.684684
+2026-04-25 10:55:01,203 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-04-25 10:55:01,304 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-25 10:55:01,304 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-25 10:55:01,490 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-25 10:55:01,502 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-25 10:55:01,504 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-25 10:55:01,514 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 1181140
+2026-04-25 10:55:01,515 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 1181140
+2026-04-25 10:55:01,516 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 1181140
+2026-04-25 14:20:45,459 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-25 14:20:45,460 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-25 14:20:45,461 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-25 14:20:45,468 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-25 14:20:50,649 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-25 14:20:57,265 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-25 14:20:57,267 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-25 14:20:57,268 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-e2d2d116-40db-11f1-8221-a4b1c1adca22
+2026-04-25 14:20:57,268 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-25 14:20:57,269 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-25 14:20:57,359 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-25 14:20:57,506 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-25 14:20:57,515 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-25 14:20:57,601 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-25 14:20:57,681 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 14:20:57.681739
+2026-04-25 14:20:57,917 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 132418
+2026-04-25 14:20:57,923 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-04-25 14:20:57,923 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-25 14:21:24,390 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-25 14:21:24,390 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-25 14:21:24,391 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-25 14:21:24,391 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-25 14:21:24,391 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-25 14:22:49,554 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-04-25 14:22:49,655 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-25 14:22:49,655 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-25 14:22:49,718 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-25 14:22:49,721 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-25 14:22:49,722 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-25 14:22:49,723 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 132418
+2026-04-25 14:22:49,726 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 132418
+2026-04-25 14:22:49,727 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 132418
+2026-04-25 14:22:50,095 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-25 14:22:50,096 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-25 14:22:50,096 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-25 14:22:50,096 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-25 14:22:50,460 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-25 14:22:51,073 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-25 14:22:51,078 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-25 14:22:51,080 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-26a903a0-40dc-11f1-a9d3-a4b1c1adca22
+2026-04-25 14:22:51,080 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-25 14:22:51,080 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-25 14:22:51,159 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-25 14:22:51,173 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-25 14:22:51,182 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-25 14:22:51,265 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 14:22:51.265231
+2026-04-25 14:22:51,392 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 198004
+2026-04-25 14:22:51,395 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-25 14:22:51,399 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49288
+2026-04-25 14:22:51,399 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-25 14:24:27,740 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-26a903a0-40dc-11f1-a9d3-a4b1c1adca22
+2026-04-25 15:22:50,508 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 15:22:50.508618
+2026-04-25 16:22:50,548 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 16:22:50.548384
+2026-04-25 17:22:50,532 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-25 17:22:50.532586
+2026-04-26 08:50:28,995 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-26 08:50:28,995 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-26 08:50:39,172 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 08:50:39.172288
+2026-04-26 08:53:31,291 [WARNING] [Dummy-5] [root/event_listener.py:96]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-04-26 08:53:31,291 [INFO] [Dummy-5] [root/event_listener.py:108]: Attempting to reconnect to Komorebi...
+2026-04-26 08:53:34,309 [INFO] [Dummy-5] [root/event_listener.py:55]: Created named pipe yasb-26a903a0-40dc-11f1-a9d3-a4b1c1adca22
+2026-04-26 08:53:34,373 [INFO] [Dummy-5] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-26a903a0-40dc-11f1-a9d3-a4b1c1adca22
+2026-04-26 09:50:28,927 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 09:50:28.927421
+2026-04-26 10:52:12,962 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-26 10:52:12,963 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-26 10:52:23,113 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 10:52:23.113928
+2026-04-26 12:01:01,906 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-26 12:01:01,906 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-26 12:01:12,112 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 12:01:12.112873
+2026-04-26 13:01:01,669 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 13:01:01.669669
+2026-04-26 14:01:01,691 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 14:01:01.691335
+2026-04-26 15:01:01,685 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 15:01:01.685401
+2026-04-26 16:01:01,677 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 16:01:01.677173
+2026-04-26 17:01:01,669 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 17:01:01.669149
+2026-04-26 18:01:01,663 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-26 18:01:01.663015
+2026-04-27 18:10:11,584 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-27 18:10:11,585 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-27 18:10:21,757 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-27 18:10:21.757769
+2026-04-27 19:10:08,686 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-27 19:10:08.685970
+2026-04-27 20:10:08,696 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-27 20:10:08.696847
+2026-04-28 16:58:35,691 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-28 16:58:35,691 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-28 16:58:45,876 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-28 16:58:45.875988
+2026-04-28 17:58:33,666 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-28 17:58:33.666288
+2026-04-28 18:58:33,696 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-28 18:58:33.696114
+2026-04-28 19:26:22,962 [INFO] [MainThread] [root/controller.py:43]: Exiting Application...
+2026-04-28 19:26:23,076 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-04-28 19:26:23,076 [DEBUG] [MainThread] [cli_server/cli_server.py:209]: CLI server stopped
+2026-04-28 19:26:23,292 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-04-28 19:26:23,303 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-04-28 19:26:23,305 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-28 19:26:23,317 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 198004
+2026-04-28 19:26:23,317 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 198004
+2026-04-28 19:26:23,318 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 198004
+2026-04-28 19:27:35,930 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-28 19:27:35,950 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-28 19:27:35,960 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-28 19:27:36,005 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-28 19:27:46,123 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-04-28 19:27:53,597 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-04-28 19:27:53,620 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-04-28 19:27:53,621 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-04-28 19:27:53,621 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-04-28 19:27:53,621 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-43107e84-4362-11f1-b905-a4b1c1adca22
+2026-04-28 19:27:53,820 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-04-28 19:27:54,075 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-04-28 19:27:54,088 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-04-28 19:27:54,187 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-04-28 19:27:54,292 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-28 19:27:54.292927
+2026-04-28 19:27:54,332 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 67210
+2026-04-28 19:27:54,341 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49272
+2026-04-28 19:27:54,367 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-04-28 19:28:24,741 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-43107e84-4362-11f1-b905-a4b1c1adca22
+2026-04-28 19:29:45,706 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-04-28 19:29:45,706 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-04-28 19:29:45,707 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-04-28 19:29:45,708 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-04-28 19:29:45,708 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-04-28 20:27:45,386 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-28 20:27:45.385990
+2026-04-30 16:42:06,462 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-04-30 16:42:06,462 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-04-30 16:42:16,671 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-30 16:42:16.670940
+2026-04-30 17:42:05,002 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-30 17:42:05.002874
+2026-04-30 18:42:04,981 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-30 18:42:04.981666
+2026-04-30 19:42:04,976 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-30 19:42:04.976854
+2026-04-30 20:42:05,029 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-04-30 20:42:05.029343
+2026-05-01 07:03:59,878 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-05-01 07:03:59,879 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-05-01 07:04:10,049 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 07:04:10.049284
+2026-05-01 08:03:55,916 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 08:03:55.916464
+2026-05-01 09:03:55,922 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 09:03:55.922151
+2026-05-01 15:21:11,508 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-05-01 15:21:11,508 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-05-01 15:21:21,687 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 15:21:21.687018
+2026-05-01 16:21:11,829 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 16:21:11.829818
+2026-05-01 17:21:11,677 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 17:21:11.677451
+2026-05-01 18:21:11,680 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 18:21:11.680421
+2026-05-01 19:21:11,683 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 19:21:11.683512
+2026-05-01 20:21:11,682 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 20:21:11.682583
+2026-05-01 21:21:11,690 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-01 21:21:11.690402
+2026-05-02 09:55:42,911 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-05-02 09:55:42,912 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-05-02 09:55:53,088 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-02 09:55:53.088199
+2026-05-02 10:55:42,692 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-02 10:55:42.692143
+2026-05-02 11:55:42,661 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-02 11:55:42.661294
+2026-05-02 12:55:42,676 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-02 12:55:42.676903
+2026-05-02 13:55:42,675 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-02 13:55:42.675397
+2026-05-02 14:55:42,674 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-02 14:55:42.674313
+2026-05-03 07:49:48,002 [ERROR] [MainThread] [root/api.py:84]: No internet connection or host not found. Unable to fetch weather.
+2026-05-03 07:49:48,002 [WARNING] [MainThread] [root/weather.py:610]: Error processing weather data: Weather data is empty.. Retrying fetch in 10 seconds.
+2026-05-03 07:49:58,200 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 07:49:58.199952
+2026-05-03 08:49:45,667 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 08:49:45.667043
+2026-05-03 09:49:45,692 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 09:49:45.692701
+2026-05-03 10:49:45,679 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 10:49:45.679137
+2026-05-03 11:49:45,685 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 11:49:45.685523
+2026-05-03 12:16:49,274 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-05-03 12:16:49,418 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-05-03 12:16:49,442 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-03 12:16:49,779 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-03 12:16:58,007 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-03 12:17:02,569 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:192]: TaskbarWindowManager is starting...
+2026-05-03 12:17:02,606 [INFO] [MainThread] [root/bar_manager.py:95]: Starting KomorebiEventListener...
+2026-05-03 12:17:02,684 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-03 12:17:02,684 [INFO] [Dummy-6] [root/event_listener.py:55]: Created named pipe yasb-e6c531d8-4713-11f1-a380-a4b1c1adca22
+2026-05-03 12:17:02,698 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-03 12:17:03,187 [INFO] [MainThread] [root/update_service.py:429]: Background update checker started
+2026-05-03 12:17:04,400 [DEBUG] [MainThread] [systray_widget/systray.py:614]: Loading state from C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-05-03 12:17:04,474 [DEBUG] [SystrayMonitor] [systray_widget/systray.py:63]: Systray monitor thread is starting...
+2026-05-03 12:17:04,732 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 12:17:04.731806
+2026-05-03 12:17:04,867 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:119]: Adding TaskbandHWND prop to hwnd 132592
+2026-05-03 12:17:05,336 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:197]: Finding real tray hwnd
+2026-05-03 12:17:05,343 [DEBUG] [MainThread] [systray_widget/systray.py:261]: Sending TaskbarCreated message: 49273
+2026-05-03 12:17:05,352 [DEBUG] [MainThread] [systray_widget/systray.py:263]: Systray icons refreshed
+2026-05-03 12:18:12,716 [INFO] [MainThread] [root/log.py:99]: YASB v1.9.1
+2026-05-03 12:18:12,716 [INFO] [CLIPipeServer] [cli_server/cli_server.py:215]: CLI server started v1.1.6
+2026-05-03 12:18:12,716 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-03 12:18:12,718 [INFO] [MainThread] [root/env_loader.py:23]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-03 12:18:12,718 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-05-03 13:16:57,650 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 13:16:57.650686
+2026-05-03 13:28:55,126 [INFO] [Dummy-6] [root/event_listener.py:149]: Komorebi connected to named pipe: yasb-e6c531d8-4713-11f1-a380-a4b1c1adca22
+2026-05-03 13:31:17,385 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping KomorebiEventListener...
+2026-05-03 13:31:17,387 [INFO] [MainThread] [core.utils.widgets.taskbar.window_manager/window_manager.py:219]: TaskbarWindowManager stopped
+2026-05-03 13:31:17,387 [DEBUG] [MainThread] [systray_widget/systray.py:596]: Saving state to C:\Users\benpb\AppData\Local\YASB\systray_state_EKLTDC49RG9XH1AK500000.json
+2026-05-03 13:31:17,397 [DEBUG] [MainThread] [systray_widget/utils.py:154]: Destroying window 132592
+2026-05-03 13:31:17,397 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:125]: WM_CLOSE received, destroying window 132592
+2026-05-03 13:31:17,397 [DEBUG] [SystrayMonitor] [systray_widget/systray_monitor.py:129]: WM_DESTROY received for window 132592
+2026-05-03 13:31:17,582 [ERROR] [MainThread] [qasync._QEventLoop/__init__.py:770]: Exception in callback Task.task_wakeup()
+handle: <Handle Task.task_wakeup()>
+Traceback (most recent call last):
+  File "C:\hostedtoolcache\windows\Python\3.14.3\x64\Lib\asyncio\events.py", line 94, in _run
+RuntimeError: loop <QIOCPEventLoop running=False closed=False debug=False> is not the running loop
+2026-05-03 13:31:17,584 [ERROR] [MainThread] [root/main.py:186]: Exception during application startup
+Traceback (most recent call last):
+  File "main.py", line 184, in <module>
+  File "main.py", line 94, in main
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 435, in run_until_complete
+RuntimeError: Event loop stopped before Future completed.
+2026-05-03 13:31:56,581 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-03 13:31:56,581 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-03 13:31:56,582 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-03 13:31:56,588 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-03 13:31:56,784 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-03 13:31:56,784 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-03 13:31:56,972 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-03 13:31:56,977 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-03 13:31:56,977 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-03 13:31:56,980 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-03 13:31:57,253 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-03 13:31:57,253 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-03 13:31:57,261 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-03 13:31:57,464 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-03 13:31:57,475 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-03 13:31:57,508 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-03 13:31:57,518 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-03 13:32:00,226 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-03 13:32:00,231 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-03 13:32:00,233 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-03 13:32:00,233 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-03 13:32:00,233 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-5f84af0b-471e-11f1-88f2-a4b1c1adca22
+2026-05-03 13:32:00,554 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-03 13:32:00,554 [INFO] [Dummy-6] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-5f84af0b-471e-11f1-88f2-a4b1c1adca22
+2026-05-03 13:32:00,822 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 13:32:00.822072
+Windows fatal exception: code 0x8001010e
+
+Thread 0x00003238 [SystrayMonitor] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\utils.py", line 145 in start_message_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_monitor.py", line 99 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 65 in run
+
+Thread 0x00000e00 [Thread-4] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002b88 [Thread-5] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00003eb4 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 75 in run
+
+Thread 0x000042d4 [CpuWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\cpu\cpu_api.py", line 318 in run
+
+Thread 0x00000890 [MemoryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\memory\memory_api.py", line 244 in run
+
+Thread 0x00000f10 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00004df8 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000c2c [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 288 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x000042c4 (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\media\media.py", line 172 in _on_current_session_changed
+  File "C:\hostedtoolcache\windows\Python\3.14.4\x64\Lib\asyncio\events.py", line 94 in _run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 307 in timerEvent
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 98 in main
+  File "main.py", line 188 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 27 in run
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\__startup__.py", line 137 in run
+
+Current thread's C stack trace (most recent call first):
+  <cannot get C stack on this system>
+2026-05-03 14:31:57,426 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 14:31:57.426039
+2026-05-03 15:31:57,434 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 15:31:57.434741
+2026-05-03 16:31:57,420 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 16:31:57.420799
+2026-05-03 17:31:57,435 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 17:31:57.435283
+2026-05-03 18:31:57,442 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 18:31:57.442486
+2026-05-03 19:31:57,442 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 19:31:57.442257
+2026-05-03 20:31:57,420 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 20:31:57.420826
+2026-05-03 21:31:57,447 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 21:31:57.446976
+2026-05-03 22:31:57,420 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 22:31:57.420139
+2026-05-03 23:31:57,422 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-03 23:31:57.422137
+2026-05-04 00:15:46,972 [WARNING] [Dummy-6] [root/event_listener.py:95]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-05-04 00:15:46,993 [INFO] [Dummy-6] [root/event_listener.py:107]: Attempting to reconnect to Komorebi...
+2026-05-04 00:15:50,002 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-5f84af0b-471e-11f1-88f2-a4b1c1adca22
+2026-05-04 00:15:52,521 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-04 00:15:52,530 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-04 18:46:04,897 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 18:46:04,960 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 18:46:04,997 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 18:46:05,180 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 18:46:08,247 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 18:46:08,248 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 18:46:09,425 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-04 18:46:09,595 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 18:46:09,632 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-04 18:46:09,739 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-04 18:46:12,529 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-04 18:46:12,529 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 18:46:12,598 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 18:46:13,328 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 18:46:13,351 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-04 18:46:13,410 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 18:46:13,422 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 18:46:17,592 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-04 18:46:17,635 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-04 18:46:17,740 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-71e1c1f8-4813-11f1-b0ec-a4b1c1adca22
+2026-05-04 18:46:17,741 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-04 18:46:17,770 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-04 18:46:18,592 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-04 18:46:18,607 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-04 18:46:19,515 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-04 18:46:19.515679
+2026-05-04 18:47:07,785 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 18:47:07,785 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 18:47:07,786 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 18:47:07,787 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 18:47:07,787 [ERROR] [MainThread] [root/main.py:75]: Another instance of the YASB is already running.
+2026-05-04 19:20:12,471 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-05-04 19:20:12,575 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-04 19:20:12,632 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-04 19:20:12,634 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-04 19:20:13,054 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 19:20:13,054 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 19:20:13,055 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 19:20:13,060 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 19:20:13,159 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:20:13,159 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:20:13,213 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:20:13,216 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:20:13,216 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-04 19:20:13,219 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:20:13,347 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:20:13,347 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:20:13,351 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:20:13,408 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:20:13,417 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-04 19:20:13,452 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:20:13,461 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:20:15,331 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-04 19:20:15,335 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-04 19:20:15,337 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-3062534a-4818-11f1-9fef-a4b1c1adca22
+2026-05-04 19:20:15,337 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-04 19:20:15,337 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-04 19:20:15,557 [WARNING] [Dummy-5] [root/event_listener.py:136]: Komorebi failed to subscribe named pipe. 'komorebic.exe' is not recognized as an internal or external command, operable program or batch file.
+2026-05-04 19:20:15,558 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-04 19:20:15,754 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-04 19:20:15.754532
+2026-05-04 19:23:48,465 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-3062534a-4818-11f1-9fef-a4b1c1adca22
+2026-05-04 19:30:05,064 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:30:05,065 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:30:05,065 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-04 19:30:05,177 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-04 19:30:05,181 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-04 19:30:05,335 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-04 19:30:05,339 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-04 19:30:05,643 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 19:30:05,644 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 19:30:05,644 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 19:30:05,644 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 19:30:05,694 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:30:05,694 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:30:05,738 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:30:05,743 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:30:05,743 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-04 19:30:05,746 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:30:05,836 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:30:05,836 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:30:05,839 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:30:05,897 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:30:05,907 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-04 19:30:05,947 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:30:05,956 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:30:06,481 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-04 19:30:06,485 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-04 19:30:06,486 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-90bc95b6-4819-11f1-b60e-a4b1c1adca22
+2026-05-04 19:30:06,486 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-04 19:30:06,486 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-04 19:30:06,500 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-04 19:30:06,551 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-90bc95b6-4819-11f1-b60e-a4b1c1adca22
+2026-05-04 19:30:06,705 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-04 19:30:06.705844
+2026-05-04 19:30:35,471 [WARNING] [Dummy-5] [root/event_listener.py:95]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-05-04 19:30:35,471 [INFO] [Dummy-5] [root/event_listener.py:107]: Attempting to reconnect to Komorebi...
+2026-05-04 19:30:38,483 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-90bc95b6-4819-11f1-b60e-a4b1c1adca22
+2026-05-04 19:30:38,541 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-04 19:32:27,996 [INFO] [MainThread] [root/controller.py:21]: Reloading Application from tray...
+2026-05-04 19:32:28,108 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-04 19:32:28,214 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-04 19:32:28,216 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-04 19:32:28,551 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 19:32:28,551 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 19:32:28,552 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 19:32:28,552 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 19:32:28,603 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:32:28,603 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:32:28,651 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:32:28,654 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:32:28,654 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-04 19:32:28,657 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:32:28,751 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:32:28,751 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:32:28,755 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:32:28,812 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:32:28,821 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-04 19:32:28,858 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:32:28,867 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:32:29,420 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-04 19:32:29,425 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-04 19:32:29,426 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-e5ef7aea-4819-11f1-a6ca-a4b1c1adca22
+2026-05-04 19:32:29,426 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-04 19:32:29,427 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-04 19:32:29,441 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-04 19:32:29,491 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-04 19:32:29,547 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-04 19:32:29.547064
+2026-05-04 19:33:16,476 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:33:16,476 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:33:16,477 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-04 19:33:16,582 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-04 19:33:16,586 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-04 19:33:16,621 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-04 19:33:16,625 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-04 19:33:17,006 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 19:33:17,006 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 19:33:17,007 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 19:33:17,007 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 19:33:17,067 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:33:17,067 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:33:17,112 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:33:17,116 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:33:17,116 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-04 19:33:17,119 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:33:17,222 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:33:17,222 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:33:17,226 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:33:17,288 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:33:17,298 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-04 19:33:17,334 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:33:17,343 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:33:17,955 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-04 19:33:17,962 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-04 19:33:17,963 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-04 19:33:17,963 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-04 19:33:17,982 [INFO] [Dummy-6] [root/event_listener.py:54]: Created named pipe yasb-02dd9ff6-481a-11f1-906a-a4b1c1adca22
+2026-05-04 19:33:17,984 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-04 19:33:18,096 [WARNING] [Dummy-6] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-04 19:33:18,255 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-04 19:33:18.254952
+2026-05-04 19:37:15,792 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:37:15,792 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:37:15,793 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-05-04 19:37:15,894 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-05-04 19:37:15,898 [INFO] [MainThread] [root/bar_manager.py:92]: Successfully loaded updated config and re-initialised all bars.
+2026-05-04 19:37:15,937 [INFO] [MainThread] [root/bar_manager.py:118]: Stopping KomorebiEventListener...
+2026-05-04 19:37:15,941 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:223]: TaskbarWindowManager stopped
+2026-05-04 19:37:16,313 [INFO] [MainThread] [root/log.py:104]: YASB v2.0.0
+2026-05-04 19:37:16,314 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-05-04 19:37:16,314 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-05-04 19:37:16,314 [INFO] [MainThread] [root/env.py:22]: Loaded environment variables from C:\Users\benpb\.config\yasb\.env
+2026-05-04 19:37:16,365 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarAlignment: 'center' - Use 'align' instead.
+2026-05-04 19:37:16,365 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] BarBlurEffect: 'acrylic' - No longer supported and can be removed from the config.
+2026-05-04 19:37:16,409 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] KomorebiWorkspacesConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:37:16,413 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ActiveLayoutConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:37:16,413 [WARNING] [MainThread] [deprecation/deprecation.py:137]: [DEPRECATED] ActiveLayoutIconsConfig: 'maximised' renamed to 'maximized' - Use 'maximized' instead.
+2026-05-04 19:37:16,416 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] StackConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:37:16,504 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'animation' - Use CSS animations instead.
+2026-05-04 19:37:16,504 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] WeatherWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:37:16,508 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] ApplicationsWidgetConfig: 'label_shadow' - Use CSS text-shadow instead.
+2026-05-04 19:37:16,566 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] VolumeConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:37:16,575 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-05-04 19:37:16,614 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] CustomConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:37:16,623 [WARNING] [MainThread] [deprecation/deprecation.py:133]: [DEPRECATED] GrouperWidgetConfig: 'container_padding' - Use CSS padding instead.
+2026-05-04 19:37:17,191 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:196]: TaskbarWindowManager is starting...
+2026-05-04 19:37:17,195 [INFO] [MainThread] [root/bar_manager.py:102]: Starting KomorebiEventListener...
+2026-05-04 19:37:17,197 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-9175c6fe-481a-11f1-98bd-a4b1c1adca22
+2026-05-04 19:37:17,197 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\benpb\.config\yasb
+2026-05-04 19:37:17,197 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-05-04 19:37:17,213 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-05-04 19:37:17,282 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-04 19:37:17,414 [INFO] [MainThread] [root/api.py:69]: Fetching new weather data at 2026-05-04 19:37:17.414109
+2026-05-04 19:44:26,915 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-9175c6fe-481a-11f1-98bd-a4b1c1adca22
+2026-05-04 19:45:18,561 [WARNING] [Dummy-5] [root/event_listener.py:95]: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2026-05-04 19:45:18,562 [INFO] [Dummy-5] [root/event_listener.py:107]: Attempting to reconnect to Komorebi...
+2026-05-04 19:45:21,562 [INFO] [Dummy-5] [root/event_listener.py:54]: Created named pipe yasb-9175c6fe-481a-11f1-98bd-a4b1c1adca22
+2026-05-04 19:45:21,618 [WARNING] [Dummy-5] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-05-04 19:51:20,544 [INFO] [Dummy-5] [root/event_listener.py:147]: Komorebi connected to named pipe: yasb-9175c6fe-481a-11f1-98bd-a4b1c1adca22

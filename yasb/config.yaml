@@ -562,7 +562,7 @@ widgets:
           start: "\uead3"
           stop: "\uead7"
           reload: "\uead2"
-        run_ahk: false
+        run_ahk: true
         run_whkd: false
         run_masir: false
         show_version: true
