@@ -2,26 +2,34 @@
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.30/schema.json",
   "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
 
-  "window_hiding_behaviour": "Minimize",
+  "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "default_workspace_padding": 2,
   "default_container_padding": 2,
   "border": true,
-  "border_width": 2,
-  "border_offset": -1,
-  "border_style": "System",
-  "border_colours": {
-    "single": "#8442f5",
-    "stack": "#00a542",
-    "monocle": "#ff3399",
-    "unfocused": "#808080"
+  "border_width": 10,
+  "border_offset": -4,
+  "animation": {
+    "enabled": false,
+    "duration": 250,
+    "fps": 120,
+    "style": "EaseInOutElastic"
+  },
+  "theme": {
+    "palette": "Base16",
+    "name": "Pasque",
+    "accent": "Base02"
   },
   "stackbar": {
-    "height": 40,
-    "mode": "OnStack",
-    "tabs": {
-      "width": 300
-    }
+      "height": 32,
+      "tabs":{
+          "height": 32,
+          "width": 600,
+          "font_size": 32,
+          "font_family": "Atkinsons Hyperlegible",
+          "padding": 10
+      },
+      "mode": "OnStack"
   },
   "monitors": [
     {
@@ -65,3 +73,4 @@
     }
   ]
 }
+
